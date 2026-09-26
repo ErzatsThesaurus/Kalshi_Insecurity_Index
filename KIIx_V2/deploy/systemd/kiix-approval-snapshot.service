@@ -1,0 +1,48 @@
+[Unit]
+Description=KIIX approval sleeve — snapshot Kalshi approval ladders to JSON
+Documentation=file:///opt/kiix/KIIX Politics Sleeves — Implementation Spec.md
+# Do not start if the network is not up yet; the timer will retry in 15 minutes.
+After=network-online.target
+Wants=network-online.target
+
+# Point this at the same ntfy handler the weather sleeve uses. With --strict
+# below, a renamed or undiscoverable series exits 2 and fails the unit, so a
+# namespace rename reaches ntfy instead of becoming silent missing data.
+#OnFailure=kiix-alert@%n.service
+
+[Service]
+Type=oneshot
+
+# ---- deployment placeholders: match the weather sleeve's unit ----------------
+User=kiix
+Group=kiix
+WorkingDirectory=/opt/kiix
+# HC_PING_URL=https://hc-ping.com/<uuid>   (optional; unset simply skips the ping)
+EnvironmentFile=-/etc/kiix/approval.env
+ExecStart=/opt/kiix/.venv/bin/python /opt/kiix/ingest/approval_snapshot.py --strict --ping-url ${HC_PING_URL}
+# -----------------------------------------------------------------------------
+
+# Worst case is ~130s if every request exhausts its 4 retries against a hung
+# endpoint. Cap well under the 15-minute cadence so runs can never overlap.
+TimeoutStartSec=300
+
+# No Restart=: a missed snapshot is not recoverable after the fact, so there is
+# nothing to gain from retrying sooner than the next timer tick.
+
+# Output paths resolve from the script's own location, not the cwd, so the
+# writable set is just the data directory.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6
+RestrictNamespaces=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+ReadWritePaths=/opt/kiix/data
+
+[Install]
+WantedBy=multi-user.target
