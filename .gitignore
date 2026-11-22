@@ -1,0 +1,9 @@
+# raw snapshots are ~65 MB each (4+ GB total): keep them out of git
+kalshi_midterms_*/
+*.partial
+*.failed
+test_report_*.json
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
