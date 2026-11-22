@@ -1,5 +1,8 @@
 # KIIX midterms: how well did Kalshi predict the 2026 midterm winners?
 
+## View the dashboard: View analysis, strategies, and place bets.
+https://erzatsthesaurus.github.io/Kalshi_Insecurity_Index/
+
 Scrapes Kalshi's public API for 2026 midterms markets, keeps 20-minute snapshots through election night, and
 scores how well the prices predicted winners and how fast they collapsed once results came in.
 
