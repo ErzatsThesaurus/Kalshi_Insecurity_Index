@@ -2,3 +2,8 @@ pandas>=2.0
 numpy>=1.24
 matplotlib>=3.7
 requests>=2.28
+lxml>=4.9
+# only to rebuild the district maps (dashboard/lazyGovWorkers/make_districts.py)
+geopandas>=0.14
+pyogrio>=0.7
+shapely>=2.0

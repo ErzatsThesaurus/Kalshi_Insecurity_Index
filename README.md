@@ -1,4 +1,4 @@
-# KIIX midterms: how well did Kalshi predict the 2026 House winners?
+# KIIX midterms: how well did Kalshi predict the 2026 midterm winners?
 
 Scrapes Kalshi's public API for 2026 midterms markets, keeps 20-minute snapshots through election night, and
 scores how well the prices predicted winners and how fast they collapsed once results came in.
@@ -14,7 +14,12 @@ scores how well the prices predicted winners and how fast they collapsed once re
 | `scripts/fetch_wikipedia_house.py` | Caches raw Wikipedia pages for the 2026 House elections (needs `--contact`; run where Wikipedia is reachable). |
 | `scripts/first_look.py` | First look at accuracy and collapse timing; writes `reports/`. |
 | `data/derived/` | Compact panel (one row per snapshot x House race market). Committed. |
-| `data/winners/` | Put `house_winners.csv` here (`district,winner_party`) to score against an external source instead of Kalshi's own results. |
+| `results_fetch.py` | Scrapes the certified winners (House, Senate, governor) from Wikipedia into `data/winners/winners_reference.csv`. |
+| `data/winners/` | `winners_reference.csv`: 503 rows (House 432, governor 36, Senate 35). Minnesota 1 is excluded (recount) and Louisiana 5 and 6 have no winner yet (runoff). |
+| `midterms/races.py` | Shared helpers: state names, district keys, winners loader, Kalshi ticker parsing. |
+| `scripts/score_start_of_night.py` | Scores start-of-night prices against the winners; writes `reports/start_of_night_*`. |
+| `scripts/timing_and_profit.py` | Collapse times, price series and per-race timing; writes `reports/timing_races.csv` and `reports/price_series.csv`. |
+| `dashboard/` | Interactive dashboard: `index.html` (self-contained, open it in a browser), built by `build_dashboard.py` from `template.html`. `lazyGovWorkers/` holds the district map builders and outputs. |
 | `support_data/` | Turnout reference CSVs (2022 actual, 2026 estimate). |
 | `reports/` | Outputs of the analysis scripts. |
 
@@ -26,7 +31,13 @@ The raw snapshot folders (about 65 MB each, 72 of them) are **not** in git (see 
 pip install -r requirements.txt
 python scripts/build_dataset.py     # only with the raw snapshot folders present
 python scripts/first_look.py
+python results_fetch.py              # winners from Wikipedia
+python scripts/score_start_of_night.py
+python scripts/timing_and_profit.py
+python dashboard/build_dashboard.py   # writes dashboard/index.html
 ```
+
+The district map files are already committed. Rebuilding them (`dashboard/lazyGovWorkers/make_districts.py`, then `project_districts.js` and `dashboard/make_states.js` with Node and `d3-geo`) needs the Census TIGER/Line 2026 legislative geodatabase and the `cb_2025_us_cd119_500k` shapefile, which are not in the repo.
 
 ## Data notes
 
@@ -38,5 +49,6 @@ python scripts/first_look.py
 
 ## Status
 
-See `reports/first_look.md`. Outcomes currently come from Kalshi's settlement results, which cover only the markets finalized by
-2026-11-04 21:12 UTC, so close races are under-represented until an external winners file is added.
+See `reports/first_look.md` for the first look, which uses Kalshi's own settlement results. The dashboard scores against the Wikipedia winners table instead. 69 House, 3 governor and 1 Senate race have no matched Kalshi market and show as unscored.
+
+Sources: winners from Wikipedia (2026 House, Senate and gubernatorial election pages, see `docs/data_sources.md`); district maps from the U.S. Census Bureau TIGER/Line 2026 legislative geodatabase.

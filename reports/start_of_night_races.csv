@@ -1,0 +1,431 @@
+kind,key,place,winner,party,p_dem,y,d_cand,r_cand,err,correct
+house,TN-04,Tennessee 4,Victoria Broderick,Democratic,0.025,1.0,Victoria Broderick,Scott DesJarlais,0.975,False
+sen,MS,Mississippi,Scott Colom,Democratic,0.135,1.0,Scott Colom,Cindy Hyde-Smith,0.865,False
+house,NC-06,North Carolina 6,Cyril Jefferson,Democratic,0.14500000000000002,1.0,Cyril Jefferson,Addison McDowell,0.855,False
+house,NC-05,North Carolina 5,Chuck Hubbard,Democratic,0.155,1.0,Chuck Hubbard,Virginia Foxx,0.845,False
+house,NC-14,North Carolina 14,LaKesha Womack,Democratic,0.225,1.0,LaKesha Womack,Tim Moore,0.775,False
+house,IN-05,Indiana 5,J. D. Ford,Democratic,0.275,1.0,J.D. Ford,Victoria Spartz,0.725,False
+sen,SC,South Carolina,Annie Andrews,Democratic,0.3,1.0,Annie Andrews,Darline Graham,0.7,False
+house,OH-10,Ohio 10,Kristina Knickerbocker,Democratic,0.305,1.0,Kristina Knickerbocker,Mike Turner,0.6950000000000001,False
+house,CO-04,Colorado 4,Eileen Laubacher,Democratic,0.33,1.0,Eileen Laubacher,Lauren Boebert,0.6699999999999999,False
+house,NC-09,North Carolina 9,Richard Ojeda,Democratic,0.355,1.0,Richard Ojeda,Richard Hudson,0.645,False
+house,FL-09,Florida 9,Darren Soto,Democratic,0.365,1.0,Darren Soto,Dan Green,0.635,False
+gov,TX,Texas,Gina Hinojosa,Democratic,0.375,1.0,Gina Hinojosa,Greg Abbott,0.625,False
+house,MO-02,Missouri 2,Fred Wellman,Democratic,0.4,1.0,Fred Wellman,Ann Wagner,0.6,False
+house,NC-13,North Carolina 13,Paul Barringer,Democratic,0.4,1.0,Paul Barringer,Brad Knott,0.6,False
+house,NC-03,North Carolina 3,Raymond Smith Jr.,Democratic,0.405,1.0,Raymond Smith Jr.,Greg Murphy,0.595,False
+house,OH-15,Ohio 15,Don Leonard,Democratic,0.41000000000000003,1.0,Don Leonard,Mike Carey,0.59,False
+house,TX-23,Texas 23,Katy Padilla Stout,Democratic,0.415,1.0,Katy Padilla Stout,Brandon Herrera,0.585,False
+house,SC-01,South Carolina 1,Nancy Lacore,Democratic,0.475,1.0,Nancy S. Lacore,Jenny Costa Honeycutt,0.525,False
+house,CO-05,Colorado 5,Jessica Killin,Democratic,0.475,1.0,Jessica Killin,Jeff Crank,0.525,False
+house,NJ-02,New Jersey 2,Zack Mullock,Democratic,0.48,1.0,Zack Mullock,Jeff Van Drew,0.52,False
+house,NY-17,New York 17,Cait Conley,Democratic/WFP,0.485,1.0,Cait Conley,Mike Lawler,0.515,False
+house,NV-02,Nevada 2,Teresa Benitez-Thompson,Democratic,0.49,1.0,Teresa Benitez-Thompson,David Flippo,0.51,False
+sen,IA,Iowa,Josh Turek,Democratic,0.505,1.0,Josh Turek,Ashley Hinson,0.495,True
+house,AL-02,Alabama 2,Shomari Figures,Democratic,0.525,1.0,Shomari Figures,Rhett Marques,0.475,True
+house,KY-06,Kentucky 6,Zach Dembo,Democratic,0.595,1.0,Zach Dembo,Ralph Alvarado,0.405,True
+house,FL-22,Florida 22,Pia Dandiya,Democratic,0.62,1.0,Pia Dandiya,Casey Askar,0.38,True
+house,VA-05,Virginia 5,John McGuire,Republican,0.365,0.0,Tom Perriello,John McGuire,0.365,True
+gov,FL,Florida,Byron Donalds,Republican,0.355,0.0,David Jolly,Byron Donalds,0.355,True
+sen,KS,Kansas,Adam Hamilton,Democratic,0.645,1.0,Adam Hamilton,Roger Marshall,0.355,True
+house,FL-07,Florida 7,Ryan Elijah,Republican,0.345,0.0,Bale Dalton,Ryan Elijah,0.345,True
+gov,VT,Vermont,Phil Scott,Republican,0.335,0.0,Amanda Janoo,Phil Scott,0.335,True
+house,FL-27,Florida 27,María Elvira Salazar,Republican,0.33,0.0,Eliott Rodriguez,Maria Elvira Salazar,0.33,True
+sen,AK,Alaska,Mary Peltola,Democratic,0.685,1.0,Democratic party,Republican party,0.31499999999999995,True
+sen,ME,Maine,Troy Jackson,Democratic,0.695,1.0,Troy Jackson,Susan Collins,0.30500000000000005,True
+house,NY-21,New York 21,Anthony Constantino,Republican,0.3,0.0,Blake Gendebien,Anthony Constantino,0.3,True
+gov,GA,Georgia,Keisha Lance Bottoms,Democratic,0.705,1.0,Keisha Lance Bottoms,Rick Jackson,0.29500000000000004,True
+house,FL-14,Florida 14,Kathy Castor,Democratic,0.715,1.0,Kathy Castor,Mike Beltran,0.28500000000000003,True
+house,IA-02,Iowa 2,Lindsay James,Democratic,0.72,1.0,Lindsay James,Joe Mitchell,0.28,True
+sen,OH,Ohio (Class 3),Sherrod Brown,Democratic,0.725,1.0,Sherrod Brown,Jon Husted,0.275,True
+house,FL-16,Florida 16,Sydney Gruters,Republican,0.26,0.0,Kelly Kirschner,Sydney Gruters,0.26,True
+sen,TX,Texas,James Talarico,Democratic,0.745,1.0,James Talarico,Ken Paxton,0.255,True
+sen,MI,Michigan,Abdul El-Sayed,Democratic,0.755,1.0,Abdul El-Sayed,Mike Rogers,0.245,True
+house,NC-07,North Carolina 7,David Rouzer,Republican,0.245,0.0,Kim Hardy,David Rouzer,0.245,True
+house,AR-02,Arkansas 2,French Hill,Republican,0.245,0.0,Chris Jones,French Hill,0.245,True
+house,WA-05,Washington 5,Michael Baumgartner,Republican,0.22999999999999998,0.0,Carmela Conroy,Michael Baumgartner,0.22999999999999998,True
+house,NE-01,Nebraska 1,Mike Flood,Republican,0.215,0.0,Chris Backemeyer,Mike Flood,0.215,True
+house,KS-02,Kansas 2,Derek Schmidt,Republican,0.215,0.0,Don Coover,Derek Schmidt,0.215,True
+house,TN-09,Tennessee 9,Brent Taylor,Republican,0.215,0.0,Justin J. Pearson,Brent Taylor,0.215,True
+house,FL-04,Florida 4,Aaron Bean,Republican,0.2,0.0,LaShonda Holloway,Aaron Bean,0.2,True
+house,NY-01,New York 1,Nick LaLota,Republican/Cons.,0.2,0.0,Chris Gallant,Nick LaLota,0.2,True
+gov,OH,Ohio,Amy Acton,Democratic,0.805,1.0,Amy Acton,Vivek Ramaswamy,0.19499999999999995,True
+house,FL-12,Florida 12,Gus Bilirakis,Republican,0.185,0.0,Kimberly Overman,Gus Bilirakis,0.185,True
+gov,NV,Nevada,Aaron Ford,Democratic,0.825,1.0,Aaron Ford,Joe Lombardo,0.17500000000000004,True
+house,NY-02,New York 2,Andrew Garbarino,Republican/Cons.,0.175,0.0,Patrick Halpin,Andrew Garbarino,0.175,True
+house,FL-11,Florida 11,Joe Strada,Republican,0.175,0.0,James Pericola,Joe Strada,0.175,True
+house,MN-08,Minnesota 8,Pete Stauber,Republican,0.16999999999999998,0.0,Trina Swanson,Pete Stauber,0.16999999999999998,True
+house,NC-01,North Carolina 1,Don Davis,Democratic,0.835,1.0,Don Davis,Laurie Buckhout,0.16500000000000004,True
+gov,OR,Oregon,Tina Kotek,Democratic,0.835,1.0,Tina Kotek,Christine Drazan,0.16500000000000004,True
+house,MD-01,Maryland 1,Andy Harris,Republican,0.165,0.0,Dan Schwartz,Andy Harris,0.165,True
+house,FL-25,Florida 25,Jared Moskowitz,Democratic,0.84,1.0,Jared Moskowitz,Scott Singer,0.16000000000000003,True
+house,OH-07,Ohio 7,Brian Poindexter,Democratic,0.845,1.0,Brian Poindexter,Max Miller,0.15500000000000003,True
+gov,WI,Wisconsin,David Crowley,Democratic,0.855,1.0,David Crowley,Tom Tiffany,0.14500000000000002,True
+house,GA-12,Georgia 12,Rick Allen,Republican,0.14500000000000002,0.0,Ceretta Smith,Rick Allen,0.14500000000000002,True
+house,FL-26,Florida 26,Mario Díaz-Balart,Republican,0.14500000000000002,0.0,Nicole Locklin,Mario Díaz-Balart,0.14500000000000002,True
+sen,FL,Florida (Class 3),Ashley Moody,Republican,0.135,0.0,Angie Nixon,Ashley Moody,0.135,True
+house,OK-05,Oklahoma 5,Stephanie Bice,Republican,0.135,0.0,Jena Nelson,Stephanie Bice,0.135,True
+gov,IA,Iowa,Rob Sand,Democratic,0.865,1.0,Rob Sand,Zach Lahn,0.135,True
+house,AZ-08,Arizona 8,Abraham Hamadeh,Republican,0.13,0.0,Bernadette Greene-Placentia,Abe Hamadeh,0.13,True
+house,MI-01,Michigan 1,Jack Bergman,Republican,0.125,0.0,Callie Barr,Jack Bergman,0.125,True
+house,GA-01,Georgia 1,Jim Kingston,Republican,0.125,0.0,Amanda Hollowell,Jim Kingston,0.125,True
+gov,NE,Nebraska,Jim Pillen,Republican,0.11499999999999999,0.0,Lynne Walz,Jim Pillen,0.11499999999999999,True
+house,WI-08,Wisconsin 8,Tony Wied,Republican,0.11499999999999999,0.0,Rick Crosson,Tony Wied,0.11499999999999999,True
+house,TN-05,Tennessee 5,Charlie Hatcher,Republican,0.11499999999999999,0.0,Chaz Molder,Charlie Hatcher,0.11499999999999999,True
+house,FL-21,Florida 21,Brian Mast,Republican,0.11,0.0,James Martin,Brian Mast,0.11,True
+house,AZ-05,Arizona 5,Mark Lamb,Republican,0.10500000000000001,0.0,Elizabeth Lee,Mark Lamb,0.10500000000000001,True
+house,NC-08,North Carolina 8,Mark Harris,Republican,0.10500000000000001,0.0,Colby Watson,Mark Harris,0.10500000000000001,True
+gov,OK,Oklahoma,Mike Mazzei,Republican,0.0965,0.0,Cyndi Munson,Mike Mazzei,0.0965,True
+house,SC-02,South Carolina 2,Joe Wilson,Republican,0.096,0.0,Zyon Khalifa,Joe Wilson,0.096,True
+gov,AL,Alabama,Tommy Tuberville,Republican,0.0955,0.0,Doug Jones,Tommy Tuberville,0.0955,True
+house,CA-06,California 6,Richard Pan,Democratic,0.9075,1.0,Richard Pan,Republican party,0.09250000000000003,True
+sen,MN,Minnesota,Peggy Flanagan,DFL,0.9115,1.0,,Michele Tafoya,0.08850000000000002,True
+house,FL-02,Florida 2,Austin Rogers,Republican,0.0875,0.0,Amanda Green,Austin Rogers,0.0875,True
+gov,TN,Tennessee,Marsha Blackburn,Republican,0.086,0.0,Jerri Green,Marsha Blackburn,0.086,True
+house,TX-31,Texas 31,John Carter,Republican,0.082,0.0,Justin Early,John Carter,0.082,True
+house,FL-18,Florida 18,Scott Franklin,Republican,0.08,0.0,Curtis Gibson,Scott Franklin,0.08,True
+house,NM-02,New Mexico 2,Gabe Vasquez,Democratic,0.9225000000000001,1.0,Gabe Vasquez,Greg Cunningham,0.0774999999999999,True
+house,IL-04,Illinois 4,Patty García,Democratic,0.9275,1.0,Patty Garcia,Lupe Castillo,0.07250000000000001,True
+house,FL-08,Florida 8,Mike Haridopolos,Republican,0.0725,0.0,Jennifer Jenkins,Mike Haridopolos,0.0725,True
+house,FL-28,Florida 28,Carlos A. Gimenez,Republican,0.07150000000000001,0.0,Phil Ehr,Carlos Giménez,0.07150000000000001,True
+house,WI-07,Wisconsin 7,Michael Alfonso,Republican,0.07050000000000001,0.0,Fred Clark,Michael Alfonso,0.07050000000000001,True
+house,NY-11,New York 11,Nicole Malliotakis,Republican/Cons.,0.0695,0.0,Michael DeCillis,Nicole Malliotakis,0.0695,True
+gov,AZ,Arizona,Katie Hobbs,Democratic,0.9305000000000001,1.0,Katie Hobbs,Andy Biggs,0.0694999999999999,True
+house,WA-04,Washington 4,Amanda McKinney,Republican,0.069,0.0,John Duresky,Amanda McKinney,0.069,True
+house,OK-01,Oklahoma 1,Mark Tedford,Republican,0.068,0.0,John Croisant,Mark Tedford,0.068,True
+house,NY-04,New York 4,Laura Gillen,Democratic,0.9325000000000001,1.0,Laura Gillen,Jeanine Driscoll,0.0674999999999999,True
+house,NY-03,New York 3,Tom Suozzi,Democratic,0.933,1.0,Tom Suozzi,Mike LiPetri,0.06699999999999995,True
+house,NE-02,Nebraska 2,Denise Powell,Democratic,0.933,1.0,Denise Powell,Brinker Harding,0.06699999999999995,True
+house,TX-03,Texas 3,Keith Self,Republican,0.0665,0.0,Evan Hunt,Keith Self,0.0665,True
+house,FL-15,Florida 15,Laurel Lee,Republican,0.0665,0.0,Robert People,Laurel Lee,0.0665,True
+house,TX-10,Texas 10,Chris Gober,Republican,0.066,0.0,Caitlin Rourk,Chris Gober,0.066,True
+house,GA-07,Georgia 7,Rich McCormick,Republican,0.066,0.0,Anthony Kozycki,Rich McCormick,0.066,True
+house,WI-06,Wisconsin 6,Glenn Grothman,Republican,0.065,0.0,Brad Smith,Glenn Grothman,0.065,True
+house,TN-07,Tennessee 7,Matt Van Epps,Republican,0.0625,0.0,Darden Copeland,Matt Van Epps,0.0625,True
+house,OH-08,Ohio 8,Warren Davidson,Republican,0.062,0.0,Vanessa Enoch,Warren Davidson,0.062,True
+house,TX-02,Texas 2,Steve Toth,Republican,0.0615,0.0,Shaun Finnie,Steve Toth,0.0615,True
+house,VA-06,Virginia 6,Ben Cline,Republican,0.0615,0.0,Beth Macy,Ben Cline,0.0615,True
+house,MN-06,Minnesota 6,Tom Emmer,Republican,0.0615,0.0,Doug Chapin,Tom Emmer,0.0615,True
+house,CA-05,California 5,Tom McClintock,Republican,0.061,0.0,Michael Masuda,Tom McClintock,0.061,True
+gov,MI,Michigan,Jocelyn Benson,Democratic,0.9404999999999999,1.0,Jocelyn Benson,John James,0.05950000000000011,True
+sen,NH,New Hampshire,Chris Pappas,Democratic,0.9415,1.0,Chris Pappas,John E. Sununu,0.058499999999999996,True
+house,TX-24,Texas 24,Beth Van Duyne,Republican,0.057999999999999996,0.0,Kevin Burge,Beth Van Duyne,0.057999999999999996,True
+house,NC-10,North Carolina 10,Pat Harrigan,Republican,0.055,0.0,Ashley Bell,Pat Harrigan,0.055,True
+house,TX-22,Texas 22,Trever Nehls,Republican,0.0545,0.0,Marquette Greene-Scott,Trever Nehls,0.0545,True
+gov,SC,South Carolina,Alan Wilson,Republican,0.0545,0.0,Jermaine Johnson,Alan Wilson,0.0545,True
+gov,NM,New Mexico,Deb Haaland,Democratic,0.9455,1.0,Deb Haaland,Greggory D. Hull,0.05449999999999999,True
+house,NV-03,Nevada 3,Susie Lee,Democratic,0.946,1.0,Susie Lee,Martin O'Donnell,0.05400000000000005,True
+house,TX-25,Texas 25,Roger Williams,Republican,0.052500000000000005,0.0,Dione Sims,Roger Williams,0.052500000000000005,True
+house,NH-01,New Hampshire 1,Stefany Shaheen,Democratic,0.9484999999999999,1.0,Stefany Shaheen,Anthony DiLorenzo,0.0515000000000001,True
+house,GA-11,Georgia 11,John Cowan,Republican,0.05,0.0,Chris Harden,John Cowan,0.05,True
+house,CA-23,California 23,Jay Obernolte,Republican,0.0465,0.0,Tessa Lynn Hodge,Jay Obernolte,0.0465,True
+house,NJ-07,New Jersey 7,Rebecca Bennett,Democratic,0.9535,1.0,Rebecca Bennett,Thomas Kean Jr.,0.046499999999999986,True
+house,NV-04,Nevada 4,Steven Horsford,Democratic,0.955,1.0,Steven Horsford,Cody Whipple,0.04500000000000004,True
+house,NY-24,New York 24,Claudia Tenney,Republican/Cons.,0.0445,0.0,Alissa Ellman,Claudia Tenney,0.0445,True
+house,CA-48,California 48,Marni von Wilpert,Democratic,0.956,1.0,Marni von Wilpert,Jim Desmond,0.04400000000000004,True
+house,FL-05,Florida 5,John Rutherford,Republican,0.044,0.0,Rachel Grage,John Rutherford,0.044,True
+house,PA-16,Pennsylvania 16,Mike Kelly,Republican,0.043,0.0,Justin Wagner,Mike Kelly,0.043,True
+house,TX-38,Texas 38,Jon Bonck,Republican,0.042499999999999996,0.0,Melissa McDonough,Jon Bonck,0.042499999999999996,True
+sen,AR,Arkansas,Tom Cotton,Republican,0.041999999999999996,0.0,Hallie Shoffner,Tom Cotton,0.041999999999999996,True
+house,FL-03,Florida 3,Kat Cammack,Republican,0.0395,0.0,Seth Harp,Kat Cammack,0.0395,True
+house,TN-08,Tennessee 8,David Kustoff,Republican,0.039,0.0,Heidi Kuhn,David Kustoff,0.039,True
+house,IL-08,Illinois 8,Melissa Bean,Democratic,0.9615,1.0,Melissa Bean,Jennifer Davis,0.03849999999999998,True
+house,TN-06,Tennessee 6,Johnny Garrett,Republican,0.038,0.0,Mike Croley,Johnny Garrett,0.038,True
+house,TX-05,Texas 5,Lance Gooden,Republican,0.038,0.0,Chelsey Hockett,Lance Gooden,0.038,True
+house,OH-14,Ohio 14,David Joyce,Republican,0.037500000000000006,0.0,Maria Jukic,David Joyce,0.037500000000000006,True
+house,TX-06,Texas 6,Jake Ellzey,Republican,0.037000000000000005,0.0,Danny Minton,Jake Ellzey,0.037000000000000005,True
+house,IL-16,Illinois 16,Darin LaHood,Republican,0.037000000000000005,0.0,Paul Nolley,Darin LaHood,0.037000000000000005,True
+gov,NY,New York,Kathy Hochul,Democratic,0.9635,1.0,Kathy Hochul,Bruce Blakeman,0.03649999999999998,True
+house,PA-09,Pennsylvania 9,Dan Meuser,Republican,0.036000000000000004,0.0,Rachel Wallace,Dan Meuser,0.036000000000000004,True
+house,RI-02,Rhode Island 2,Seth Magaziner,Democratic,0.9655,1.0,Seth Magaziner,Victor Mellor,0.034499999999999975,True
+house,NH-02,New Hampshire 2,Maggie Goodlander,Democratic,0.966,1.0,Maggie Goodlander,Lily Tang Williams,0.03400000000000003,True
+house,NJ-09,New Jersey 9,Nellie Pou,Democratic,0.966,1.0,Nellie Pou,Rosie Pino,0.03400000000000003,True
+house,TX-21,Texas 21,Mark Teixeira,Republican,0.034,0.0,Kristin Hook,Mark Teixeira,0.034,True
+house,NV-01,Nevada 1,Dina Titus,Democratic,0.9664999999999999,1.0,Dina Titus,Carrie Buck,0.033500000000000085,True
+house,SC-04,South Carolina 4,William Timmons,Republican,0.0335,0.0,Courtney McClain,William Timmons,0.0335,True
+house,NY-23,New York 23,Nick Langworthy,Republican/Cons.,0.0335,0.0,Aaron Gies,Nick Langworthy,0.0335,True
+sen,KY,Kentucky,Andy Barr,Republican,0.033,0.0,Charles Booker,Andy Barr,0.033,True
+house,KS-04,Kansas 4,Ron Estes,Republican,0.033,0.0,Katy Tyndell,Ron Estes,0.033,True
+house,SC-05,South Carolina 5,Wes Climer,Republican,0.0325,0.0,Mallory Dittmer,Wes Climer,0.0325,True
+house,SC-07,South Carolina 7,Russell Fry,Republican,0.032,0.0,John Vincent,Russell Fry,0.032,True
+sen,GA,Georgia,Jon Ossoff,Democratic,0.9684999999999999,1.0,Jon Ossoff,Mike Collins,0.031500000000000083,True
+house,NY-19,New York 19,Josh Riley,Democratic/WFP,0.9684999999999999,1.0,Josh Riley,Peter Oberacker,0.031500000000000083,True
+gov,ME,Maine,Hannah Pingree,Democratic,0.9684999999999999,1.0,Hannah Pingree,Robert Charles,0.031500000000000083,True
+gov,CO,Colorado,Phil Weiser,Democratic,0.9684999999999999,1.0,Phil Weiser,Victor Marx,0.031500000000000083,True
+house,AZ-04,Arizona 4,Greg Stanton,Democratic,0.9684999999999999,1.0,Greg Stanton,Zuhdi Jasser,0.031500000000000083,True
+house,UT-04,Utah 4,Mike Kennedy,Republican,0.0315,0.0,Jonny Larsen,Mike Kennedy,0.0315,True
+house,NM-03,New Mexico 3,Teresa Leger Fernández,Democratic,0.9695,1.0,Teresa Leger Fernández,Martin Zamora,0.03049999999999997,True
+house,TX-17,Texas 17,Pete Sessions,Republican,0.03,0.0,Casey Shepard,Pete Sessions,0.03,True
+house,TX-14,Texas 14,Randy Weber,Republican,0.03,0.0,Thurman Bartie,Randy Weber,0.03,True
+house,MN-07,Minnesota 7,Michelle Fischbach,Republican,0.0295,0.0,Erik Osberg,Michelle Fischbach,0.0295,True
+house,NJ-04,New Jersey 4,Chris Smith,Republican,0.0295,0.0,Rachel Peace,Chris Smith,0.0295,True
+house,CA-01,California 1,Mike McGuire,Democratic,0.971,1.0,Mike McGuire,James Gallagher,0.029000000000000026,True
+house,TX-04,Texas 4,Pat Fallon,Republican,0.028999999999999998,0.0,Jason Pearce,Pat Fallon,0.028999999999999998,True
+house,OR-04,Oregon 4,Val Hoyle,Democratic,0.972,1.0,Val Hoyle,Monique DeSpain,0.028000000000000025,True
+house,TX-12,Texas 12,Craig Goldman,Republican,0.027999999999999997,0.0,Angela Rodriguez Prilliman,Craig Goldman,0.027999999999999997,True
+house,FL-19,Florida 19,Jim Schwartzel,Republican,0.027999999999999997,0.0,Victor Arias,Jim Schwartzel,0.027999999999999997,True
+house,FL-06,Florida 6,Randy Fine,Republican,0.027999999999999997,0.0,Eric Yonce,Randy Fine,0.027999999999999997,True
+house,LA-04,Louisiana 4,Mike Johnson,Republican,0.027999999999999997,0.0,Democratic party,Republican party,0.027999999999999997,True
+sen,NC,North Carolina,Roy Cooper,Democratic,0.9724999999999999,1.0,Roy Cooper,Michael Whatley,0.02750000000000008,True
+house,MI-05,Michigan 5,Tim Walberg,Republican,0.0275,0.0,Christian Vukasovich,Tim Walberg,0.0275,True
+house,OH-05,Ohio 5,Bob Latta,Republican,0.0275,0.0,Brian Shaver,Bob Latta,0.0275,True
+gov,MN,Minnesota,Amy Klobuchar,DFL,0.973,1.0,Amy Klobuchar,Lisa Demuth,0.027000000000000024,True
+house,PA-11,Pennsylvania 11,Lloyd Smucker,Republican,0.027000000000000003,0.0,Nancy Mannion,Lloyd Smucker,0.027000000000000003,True
+house,AL-05,Alabama 5,Dale Strong,Republican,0.026500000000000003,0.0,Andrew Sneed,Dale Strong,0.026500000000000003,True
+house,KS-03,Kansas 3,Sharice Davids,Democratic,0.974,1.0,Sharice Davids,Eric Jenkins,0.026000000000000023,True
+house,FL-17,Florida 17,Greg Steube,Republican,0.026000000000000002,0.0,Matthew Montavon,Greg Steube,0.026000000000000002,True
+gov,MA,Massachusetts,Maura Healey,Democratic,0.9744999999999999,1.0,Maura Healey,Mike Minogue,0.025500000000000078,True
+house,CA-20,California 20,Vince Fong,Republican,0.025500000000000002,0.0,Sandra Van Scotter,Vince Fong,0.025500000000000002,True
+house,IN-08,Indiana 8,Mark Messmer,Republican,0.025,0.0,Mary Allen,Mark Messmer,0.025,True
+gov,AR,Arkansas,Sarah Huckabee Sanders,Republican,0.025,0.0,Fred Love,Sarah Huckabee Sanders,0.025,True
+house,TX-08,Texas 8,Jessica Steinmann,Republican,0.025,0.0,Laura Jones,Jessica Steinmann,0.025,True
+house,OR-02,Oregon 2,Cliff Bentz,Republican,0.025,0.0,Chris Beck,Cliff Bentz,0.025,True
+house,TX-27,Texas 27,Michael Cloud,Republican,0.025,0.0,Tanya Lloyd,Michael Cloud,0.025,True
+house,HI-02,Hawaii 2,Jill Tokuda,Democratic,0.976,1.0,Jill Tokuda,Brenton Awa,0.02400000000000002,True
+house,MO-04,Missouri 4,Mark Alford,Republican,0.024,0.0,Jordan Herrera,Mark Alford,0.024,True
+house,MS-04,Mississippi 4,Mike Ezell,Republican,0.024,0.0,Jeffrey Hulum III,Mike Ezell,0.024,True
+house,ID-02,Idaho 2,Mike Simpson,Republican,0.024,0.0,Elinor Gilbreath,Mike Simpson,0.024,True
+gov,PA,Pennsylvania,Josh Shapiro,Democratic,0.9764999999999999,1.0,Josh Shapiro,Stacy Garrity,0.023500000000000076,True
+gov,CA,California,Xavier Becerra,Democratic,0.9764999999999999,1.0,Xavier Becerra,Steve Hilton,0.023500000000000076,True
+gov,RI,Rhode Island,Helena Foulkes,Democratic,0.9764999999999999,1.0,Helena Foulkes,Aaron Guckian,0.023500000000000076,True
+house,LA-03,Louisiana 3,Clay Higgins,Republican,0.0235,0.0,Democratic party,Republican party,0.0235,True
+house,IL-01,Illinois 1,Jonathan Jackson,Democratic,0.977,1.0,Jonathan Jackson,Christian Maxwell,0.02300000000000002,True
+house,CA-26,California 26,Jacqui Irwin,Democratic,0.977,1.0,Jacqui Irwin,Sam Gallucci,0.02300000000000002,True
+house,PA-04,Pennsylvania 4,Madeleine Dean,Democratic,0.977,1.0,Madeleine Dean,Aurora Stuski,0.02300000000000002,True
+house,NY-22,New York 22,John Mannion,Democratic/WFP,0.977,1.0,John Mannion,Kailee Buller,0.02300000000000002,True
+house,GA-10,Georgia 10,Houston Gaines,Republican,0.023,0.0,Pamela DeLancy,Houston Gaines,0.023,True
+house,KY-04,Kentucky 4,Ed Gallrein,Republican,0.023,0.0,Melissa Claire Strange,Ed Gallrein,0.023,True
+house,FL-01,Florida 1,Jimmy Patronis,Republican,0.023,0.0,Gay Valimont,Jimmy Patronis,0.023,True
+house,OH-02,Ohio 2,David Taylor,Republican,0.023,0.0,Jennifer Mazzuckelli,David Taylor,0.023,True
+house,MS-01,Mississippi 1,Trent Kelly,Republican,0.0225,0.0,Cliff Johnson,Trent Kelly,0.0225,True
+gov,CT,Connecticut,Ned Lamont,Democratic,0.9775,1.0,Ned Lamont,Ryan Fazio,0.022499999999999964,True
+house,WY-AL,Wyoming at-large,Chuck Gray,Republican,0.022,0.0,Lisa Kinney,Chuck Gray,0.022,True
+house,SD-AL,South Dakota at-large,Marty Jackley,Republican,0.022,0.0,Nicole Gronli,Marty Jackley,0.022,True
+sen,AL,Alabama,Barry Moore,Republican,0.022,0.0,Everett Wess,Barry Moore,0.022,True
+house,WI-05,Wisconsin 5,Scott Fitzgerald,Republican,0.0215,0.0,Andrew Beck,Scott Fitzgerald,0.0215,True
+house,IN-06,Indiana 6,Jefferson Shreve,Republican,0.0215,0.0,Cynthia Wirth,Jefferson Shreve,0.0215,True
+house,TX-36,Texas 36,Brian Babin,Republican,0.020999999999999998,0.0,Rhonda Hart,Brian Babin,0.020999999999999998,True
+house,VA-09,Virginia 9,Morgan Griffith,Republican,0.020999999999999998,0.0,Joy Powers,Morgan Griffith,0.020999999999999998,True
+house,OH-04,Ohio 4,Jim Jordan,Republican,0.020999999999999998,0.0,Joshua Kolasinski,Jim Jordan,0.020999999999999998,True
+sen,TN,Tennessee,Bill Hagerty,Republican,0.020499999999999997,0.0,Marquita Bradshaw,Bill Hagerty,0.020499999999999997,True
+gov,ID,Idaho,Brad Little,Republican,0.02,0.0,Terri Pickens,Brad Little,0.02,True
+house,GA-14,Georgia 14,Clay Fuller,Republican,0.02,0.0,Shawn Harris,Clay Fuller,0.02,True
+house,MI-09,Michigan 9,Lisa McClain,Republican,0.019999999999999997,0.0,Ray Pooley,Lisa McClain,0.019999999999999997,True
+house,PA-14,Pennsylvania 14,Guy Reschenthaler,Republican,0.019999999999999997,0.0,Alan Bradstock,Guy Reschenthaler,0.019999999999999997,True
+house,IN-03,Indiana 3,Marlin Stutzman,Republican,0.019999999999999997,0.0,Kelly Thompson,Marlin Stutzman,0.019999999999999997,True
+house,GA-03,Georgia 3,Brian Jack,Republican,0.019999999999999997,0.0,Maura Keller,Brian Jack,0.019999999999999997,True
+house,TX-11,Texas 11,August Pfluger,Republican,0.019999999999999997,0.0,Claire Reynolds,August Pfluger,0.019999999999999997,True
+house,IL-06,Illinois 6,Sean Casten,Democratic,0.9804999999999999,1.0,Sean Casten,Niki Conforti,0.019500000000000073,True
+house,TX-20,Texas 20,Joaquin Castro,Democratic,0.9804999999999999,1.0,Joaquin Castro,Edgardo Baez,0.019500000000000073,True
+house,FL-20,Florida 20,Debbie Wasserman Schultz,Democratic,0.981,1.0,Debbie Wasserman Schultz,Brent Andersen,0.019000000000000017,True
+house,MO-06,Missouri 6,Chris Stigall,Republican,0.018500000000000003,0.0,Josh Smead,Chris Stigall,0.018500000000000003,True
+house,OH-12,Ohio 12,Troy Balderson,Republican,0.018500000000000003,0.0,Jerrad Christian,Troy Balderson,0.018500000000000003,True
+house,KS-01,Kansas 1,Tracey Mann,Republican,0.018500000000000003,0.0,Lauren Reinhold,Tracey Mann,0.018500000000000003,True
+house,OH-06,Ohio 6,Michael Rulli,Republican,0.018500000000000003,0.0,Elizabeth Kirtley,Michael Rulli,0.018500000000000003,True
+house,MO-07,Missouri 7,Eric Burlison,Republican,0.018500000000000003,0.0,Missi Hesketh,Eric Burlison,0.018500000000000003,True
+house,NJ-01,New Jersey 1,Donald Norcross,Democratic,0.9815,1.0,Donald Norcross,Damon Galdo,0.01849999999999996,True
+house,NY-18,New York 18,Pat Ryan,Democratic/WFP,0.9815,1.0,Pat Ryan,Jacqueline Auringer,0.01849999999999996,True
+house,VA-04,Virginia 4,Jennifer McClellan,Democratic,0.9815,1.0,Jennifer McClellan,Robert Murray,0.01849999999999996,True
+house,TX-33,Texas 33,Colin Allred,Democratic,0.9815,1.0,Colin Allred,Patrick David Gillespie,0.01849999999999996,True
+house,CA-39,California 39,Mark Takano,Democratic,0.982,1.0,Mark Takano,Steve Manos,0.018000000000000016,True
+house,TX-16,Texas 16,Veronica Escobar,Democratic,0.982,1.0,Veronica Escobar,Adam Bauman,0.018000000000000016,True
+house,IL-11,Illinois 11,Bill Foster,Democratic,0.982,1.0,Bill Foster,Jeff Walter,0.018000000000000016,True
+house,DE-AL,Delaware at-large,Sarah McBride,Democratic,0.982,1.0,Sarah McBride,Joseph Arminio,0.018000000000000016,True
+house,VA-03,Virginia 3,Bobby Scott,Democratic,0.982,1.0,Bobby Scott,Edwin Rivera,0.018000000000000016,True
+house,MO-03,Missouri 3,Bob Onder,Republican,0.018000000000000002,0.0,Bethany Mann,Bob Onder,0.018000000000000002,True
+gov,SD,South Dakota,Larry Rhoden,Republican,0.018000000000000002,0.0,Dan Ahlers,Larry Rhoden,0.018000000000000002,True
+house,AZ-09,Arizona 9,Paul Gosar,Republican,0.018000000000000002,0.0,Dani Sterbinsky,Paul Gosar,0.018000000000000002,True
+house,WA-02,Washington 2,Rick Larsen,Democratic,0.9824999999999999,1.0,Rick Larsen,Edwin H. Feller,0.01750000000000007,True
+gov,IL,Illinois,JB Pritzker,Democratic,0.9824999999999999,1.0,JB Pritzker,Darren Bailey,0.01750000000000007,True
+house,TX-07,Texas 7,Lizzie Fletcher,Democratic,0.9824999999999999,1.0,Lizzie Fletcher,Alexander Hale,0.01750000000000007,True
+house,CA-31,California 31,Gil Cisneros,Democratic,0.9824999999999999,1.0,Gil Cisneros,Eric Ching,0.01750000000000007,True
+house,CA-42,California 42,Robert Garcia,Democratic,0.9824999999999999,1.0,Robert Garcia,Brian Burley,0.01750000000000007,True
+house,CT-02,Connecticut 2,Joe Courtney,Democratic,0.9824999999999999,1.0,Joe Courtney,George Austin,0.01750000000000007,True
+house,VT-AL,Vermont at-large,Becca Balint,Democratic,0.9824999999999999,1.0,Becca Balint,Gerald Malloy,0.01750000000000007,True
+house,MA-06,Massachusetts 6,Dan Koh,Democratic,0.9824999999999999,1.0,Dan Koh,Micah Jones,0.01750000000000007,True
+house,NC-04,North Carolina 4,Valerie Foushee,Democratic,0.9824999999999999,1.0,Valerie Foushee,Max Ganorkar,0.01750000000000007,True
+house,IN-04,Indiana 4,Jim Baird,Republican,0.0175,0.0,Drew Cox,Jim Baird,0.0175,True
+house,LA-01,Louisiana 1,Steve Scalise,Republican,0.0175,0.0,Democratic party,Republican party,0.0175,True
+house,WV-01,West Virginia 1,Carol Miller,Republican,0.0175,0.0,Vince George,Carol Miller,0.0175,True
+house,IL-12,Illinois 12,Mike Bost,Republican,0.0175,0.0,Julie Fortier,Mike Bost,0.0175,True
+house,TN-03,Tennessee 3,Chuck Fleischmann,Republican,0.0175,0.0,Anna Golladay,Chuck Fleischmann,0.0175,True
+house,TX-19,Texas 19,Tom Sell,Republican,0.0175,0.0,Kyle Rable,Tom Sell,0.0175,True
+house,TX-13,Texas 13,Ronny Jackson,Republican,0.0175,0.0,Mark Nair,Ronny Jackson,0.0175,True
+house,MD-06,Maryland 6,April McClain Delaney,Democratic,0.983,1.0,April McClain Delaney,Robin Ficker,0.017000000000000015,True
+house,MN-03,Minnesota 3,Kelly Morrison,DFL,0.983,1.0,Kelly Morrison,Tyler Bass,0.017000000000000015,True
+house,CA-33,California 33,Pete Aguilar,Democratic,0.983,1.0,Pete Aguilar,Stephanie Vargas,0.017000000000000015,True
+house,PA-05,Pennsylvania 5,Mary Gay Scanlon,Democratic,0.983,1.0,Mary Gay Scanlon,Nicholas Manganaro,0.017000000000000015,True
+house,MD-03,Maryland 3,Sarah Elfreth,Democratic,0.983,1.0,Sarah Elfreth,Berney Flowers,0.017000000000000015,True
+house,TN-01,Tennessee 1,Diana Harshbarger,Republican,0.017,0.0,Kristi Burke,Diana Harshbarger,0.017,True
+house,OK-04,Oklahoma 4,Tom Cole,Republican,0.017,0.0,Mitchell Jacob,Tom Cole,0.017,True
+house,TN-02,Tennessee 2,Tim Burchett,Republican,0.017,0.0,Michaela Barnett,Tim Burchett,0.017,True
+house,AL-01,Alabama 1,Jerry Carl,Republican,0.017,0.0,Clyde Jones,Jerry Carl,0.017,True
+house,GA-08,Georgia 8,Austin Scott,Republican,0.0165,0.0,Kelly Esti,Austin Scott,0.0165,True
+house,PA-15,Pennsylvania 15,Glenn Thompson,Republican,0.0165,0.0,Ray Bilger,Glenn Thompson,0.0165,True
+house,PA-13,Pennsylvania 13,John Joyce,Republican,0.0165,0.0,Beth Farnham,John Joyce,0.0165,True
+house,KY-02,Kentucky 2,Brett Guthrie,Republican,0.0165,0.0,Megan Wingfield,Brett Guthrie,0.0165,True
+house,IL-15,Illinois 15,Mary Miller,Republican,0.0165,0.0,Jennifer Todd,Mary Miller,0.0165,True
+house,SC-03,South Carolina 3,Sheri Biggs,Republican,0.0165,0.0,Eunice Lehmacher,Sheri Biggs,0.0165,True
+house,ND-AL,North Dakota at-large,Julie Fedorchak,Republican,0.0165,0.0,Trygve Hammer,Julie Fedorchak,0.0165,True
+house,WV-02,West Virginia 2,Riley Moore,Republican,0.0165,0.0,Ace Parsi,Riley Moore,0.0165,True
+house,MN-05,Minnesota 5,Ilhan Omar,DFL,0.9835,1.0,Ilhan Omar,John Nagel,0.01649999999999996,True
+house,TX-37,Texas 37,Greg Casar,Democratic,0.9835,1.0,Greg Casar,Lauren B. Peña,0.01649999999999996,True
+house,MI-13,Michigan 13,Donavan McKinney,Democratic,0.9835,1.0,Donavan McKinney,T.P. Nykoriak,0.01649999999999996,True
+house,PA-12,Pennsylvania 12,Summer Lee,Democratic,0.9835,1.0,Summer Lee,James Hayes,0.01649999999999996,True
+house,NY-26,New York 26,Tim Kennedy,Democratic,0.9835,1.0,Tim Kennedy,Dennis Hannon,0.01649999999999996,True
+house,IL-13,Illinois 13,Nikki Budzinski,Democratic,0.9835,1.0,Nikki Budzinski,Jeff Wilson,0.01649999999999996,True
+house,IL-02,Illinois 2,Donna Miller,Democratic,0.984,1.0,Donna Miller,Michael Noack,0.016000000000000014,True
+house,IL-03,Illinois 3,Delia Ramirez,Democratic,0.984,1.0,Delia Ramirez,Angel Oakley,0.016000000000000014,True
+house,CA-25,California 25,Raul Ruiz,Democratic,0.984,1.0,Raul Ruiz,Joe Males,0.016000000000000014,True
+house,MD-02,Maryland 2,Johnny Olszewski,Democratic,0.984,1.0,Johnny Olszewski,Dave Wallace,0.016000000000000014,True
+house,WI-04,Wisconsin 4,Gwen Moore,Democratic,0.984,1.0,Gwen Moore,Tim Rogers,0.016000000000000014,True
+house,WA-01,Washington 1,Suzan DelBene,Democratic,0.984,1.0,Suzan DelBene,Mary Silva,0.016000000000000014,True
+house,MS-03,Mississippi 3,Michael Guest,Republican,0.016,0.0,Michael Chiaradio,Michael Guest,0.016,True
+house,IA-04,Iowa 4,Chris McGowan,Republican,0.016,0.0,Dave Dawson,Chris McGowan,0.016,True
+gov,HI,Hawaii,Josh Green,Democratic,0.9844999999999999,1.0,Josh Green,Gary Cordery,0.01550000000000007,True
+house,NM-01,New Mexico 1,Melanie Stansbury,Democratic,0.9844999999999999,1.0,Melanie Stansbury,Didi Okpareke,0.01550000000000007,True
+house,NY-15,New York 15,Ritchie Torres,Democratic,0.9844999999999999,1.0,Ritchie Torres,Stylo Sapaskis,0.01550000000000007,True
+house,NJ-05,New Jersey 5,Josh Gottheimer,Democratic,0.9844999999999999,1.0,Josh Gottheimer,Sean Kirrane,0.01550000000000007,True
+house,NC-12,North Carolina 12,Alma Adams,Democratic,0.9844999999999999,1.0,Alma Adams,Jack Codiga,0.01550000000000007,True
+house,MA-03,Massachusetts 3,Lori Trahan,Democratic,0.9844999999999999,1.0,Lori Trahan,Gary Grossi,0.01550000000000007,True
+house,OK-02,Oklahoma 2,Josh Brecheen,Republican,0.0155,0.0,Brandon Wade,Josh Brecheen,0.0155,True
+house,MA-04,Massachusetts 4,Jake Auchincloss,Democratic,0.985,1.0,Jake Auchincloss,Tom Stalcup,0.015000000000000013,True
+house,KY-03,Kentucky 3,Morgan McGarvey,Democratic,0.985,1.0,Morgan McGarvey,Maria Rodriguez,0.015000000000000013,True
+house,MI-06,Michigan 6,Debbie Dingell,Democratic,0.985,1.0,Debbie Dingell,Heather Smiley,0.015000000000000013,True
+house,MD-05,Maryland 5,Adrian Boafo,Democratic,0.985,1.0,Adrian Boafo,Chris Chaffee,0.015000000000000013,True
+house,CA-50,California 50,Scott Peters,Democratic,0.985,1.0,Scott Peters,Stephen Cohen,0.015000000000000013,True
+house,OH-11,Ohio 11,Shontel Brown,Democratic,0.985,1.0,Shontel Brown,Mike Kirchner,0.015000000000000013,True
+house,KY-01,Kentucky 1,James Comer,Republican,0.015,0.0,Drew Williams,James Comer,0.015,True
+house,IN-02,Indiana 2,Rudy Yakym,Republican,0.014499999999999999,0.0,Jamee Decio,Rudy Yakym,0.014499999999999999,True
+house,VA-08,Virginia 8,Don Beyer,Democratic,0.9855,1.0,Don Beyer,Tony Sabio,0.014499999999999957,True
+house,RI-01,Rhode Island 1,Gabe Amo,Democratic,0.9855,1.0,Gabe Amo,Kellie Keenan,0.014499999999999957,True
+house,SC-06,South Carolina 6,Jim Clyburn,Democratic,0.9855,1.0,Jim Clyburn,John Peterson,0.014499999999999957,True
+house,WA-09,Washington 9,Adam Smith,Democratic,0.9855,1.0,Adam Smith,Doug Basler,0.014499999999999957,True
+house,CT-04,Connecticut 4,Jim Himes,Democratic,0.9855,1.0,Jim Himes,Michael Goldstein,0.014499999999999957,True
+house,CA-10,California 10,Mark DeSaulnier,Democratic,0.9855,1.0,Mark DeSaulnier,Jeff Frese,0.014499999999999957,True
+sen,NJ,New Jersey,Cory Booker,Democratic,0.9855,1.0,Cory Booker,Justin Murphy,0.014499999999999957,True
+sen,IL,Illinois,Juliana Stratton,Democratic,0.9855,1.0,Juliana Stratton,Don Tracy,0.014499999999999957,True
+house,AL-07,Alabama 7,Terri Sewell,Democratic,0.9855,1.0,Terri Sewell,Ammie Akin,0.014499999999999957,True
+house,LA-02,Louisiana 2,Troy Carter,Democratic,0.9855,1.0,Democratic party,Republican party,0.014499999999999957,True
+house,PA-06,Pennsylvania 6,Chrissy Houlahan,Democratic,0.986,1.0,Chrissy Houlahan,Marty Young,0.014000000000000012,True
+house,NJ-12,New Jersey 12,Adam Hamawy,Democratic,0.986,1.0,Adam Hamawy,Gregg Mele,0.014000000000000012,True
+house,TX-29,Texas 29,Sylvia Garcia,Democratic,0.986,1.0,Sylvia Garcia,Martha Fierro,0.014000000000000012,True
+house,MI-12,Michigan 12,Rashida Tlaib,Democratic,0.986,1.0,Rashida Tlaib,James Hooper,0.014000000000000012,True
+house,CA-24,California 24,Salud Carbajal,Democratic,0.986,1.0,Salud Carbajal,Bob Smith,0.014000000000000012,True
+house,CA-30,California 30,Laura Friedman,Democratic,0.986,1.0,Laura Friedman,Scott Meyers,0.014000000000000012,True
+house,FL-24,Florida 24,Oliver Gilbert,Democratic,0.986,1.0,Oliver Gilbert,Mayonna Te Brown,0.014000000000000012,True
+house,CA-46,California 46,Lou Correa,Democratic,0.986,1.0,Lou Correa,David Pan,0.014000000000000012,True
+gov,WY,Wyoming,Eric Barlow,Republican,0.013999999999999999,0.0,Kenneth Casner,Eric Barlow,0.013999999999999999,True
+sen,OK,Oklahoma,Kevin Hern,Republican,0.013999999999999999,0.0,N’Kiyla Thomas,Kevin Hern,0.013999999999999999,True
+house,MI-02,Michigan 2,John Moolenaar,Republican,0.013999999999999999,0.0,Benjamin Ambrose,John Moolenaar,0.013999999999999999,True
+house,AR-03,Arkansas 3,Steve Womack,Republican,0.013999999999999999,0.0,Robb Ryerse,Steve Womack,0.013999999999999999,True
+house,IN-09,Indiana 9,Erin Houchin,Republican,0.013999999999999999,0.0,Brad Meyer,Erin Houchin,0.013999999999999999,True
+house,IL-05,Illinois 5,Mike Quigley,Democratic,0.9864999999999999,1.0,Mike Quigley,Tommy Hanson,0.013500000000000068,True
+house,MO-01,Missouri 1,Wesley Bell,Democratic,0.9864999999999999,1.0,Wesley Bell,Paul Berry,0.013500000000000068,True
+house,CO-01,Colorado 1,Melat Kiros,Democratic,0.9864999999999999,1.0,Melat Kiros,Christy Peterson,0.013500000000000068,True
+house,PA-03,Pennsylvania 3,Chris Rabb,Democratic,0.9864999999999999,1.0,Chris Rabb,Republican party,0.013500000000000068,True
+house,MA-01,Massachusetts 1,Richard Neal,Democratic,0.9864999999999999,1.0,Richard Neal,Republican party,0.013500000000000068,True
+house,GA-04,Georgia 4,Hank Johnson,Democratic,0.9864999999999999,1.0,Hank Johnson,James Duffie,0.013500000000000068,True
+house,NJ-06,New Jersey 6,Frank Pallone,Democratic,0.9864999999999999,1.0,Frank Pallone,Hillary Herzig,0.013500000000000068,True
+house,MO-08,Missouri 8,Jason Smith,Republican,0.0135,0.0,Chris Reichard,Jason Smith,0.0135,True
+house,KY-05,Kentucky 5,Hal Rogers,Republican,0.0135,0.0,Ned Pillersdorf,Hal Rogers,0.0135,True
+sen,WV,West Virginia,Shelley Moore Capito,Republican,0.0135,0.0,Rachel Fetty Anderson,Shelley Moore Capito,0.0135,True
+house,TX-26,Texas 26,Brandon Gill,Republican,0.0135,0.0,Steven Shook,Brandon Gill,0.0135,True
+house,NE-03,Nebraska 3,Adrian Smith,Republican,0.0135,0.0,Becky Stille,Adrian Smith,0.0135,True
+house,MT-02,Montana 2,Troy Downing,Republican,0.0135,0.0,Brian Miller,Troy Downing,0.0135,True
+house,TX-01,Texas 1,Nathaniel Moran,Republican,0.0135,0.0,Yolanda R. Prince,Nathaniel Moran,0.0135,True
+sen,WY,Wyoming,Harriet Hageman,Republican,0.0135,0.0,James Byrd,Harriet Hageman,0.0135,True
+house,ID-01,Idaho 1,Russ Fulcher,Republican,0.0135,0.0,Kaylee Peterson,Russ Fulcher,0.0135,True
+house,OK-03,Oklahoma 3,Frank Lucas,Republican,0.0135,0.0,Suzie Byrd,Frank Lucas,0.0135,True
+sen,NM,New Mexico,Ben Ray Luján,Democratic,0.987,1.0,Ben Ray Luján,Larry E. Marker,0.013000000000000012,True
+house,ME-01,Maine 1,Chellie Pingree,Democratic,0.987,1.0,Chellie Pingree,Ronald Russell,0.013000000000000012,True
+house,MA-09,Massachusetts 9,Bill Keating,Democratic,0.987,1.0,Bill Keating,Tyler MacAllister,0.013000000000000012,True
+house,IL-14,Illinois 14,Lauren Underwood,Democratic,0.987,1.0,Lauren Underwood,James Marter,0.013000000000000012,True
+house,MD-08,Maryland 8,Jamie Raskin,Democratic,0.987,1.0,Jamie Raskin,Cheryl Riley,0.013000000000000012,True
+house,GA-13,Georgia 13,Jasmine Clark,Democratic,0.987,1.0,Jasmine Clark,Jonathan Chavez,0.013000000000000012,True
+house,AR-04,Arkansas 4,Bruce Westerman,Republican,0.013000000000000001,0.0,James Russell,Bruce Westerman,0.013000000000000001,True
+house,AL-06,Alabama 6,Gary Palmer,Republican,0.0125,0.0,Maurice Mercer,Gary Palmer,0.0125,True
+house,AZ-07,Arizona 7,Adelita Grijalva,Democratic,0.9875,1.0,Adelita Grijalva,Daniel Francis Butierez Sr.,0.012499999999999956,True
+house,NC-02,North Carolina 2,Deborah Ross,Democratic,0.9875,1.0,Deborah Ross,Gene Douglass,0.012499999999999956,True
+house,TX-30,Texas 30,Frederick Haynes III,Democratic,0.9875,1.0,Frederick Haynes III,Everett Jackson,0.012499999999999956,True
+house,OH-03,Ohio 3,Joyce Beatty,Democratic,0.9875,1.0,Joyce Beatty,Cleophus Dulaney,0.012499999999999956,True
+house,IL-10,Illinois 10,Brad Schneider,Democratic,0.9875,1.0,Brad Schneider,Carl Lambrecht,0.012499999999999956,True
+house,NY-05,New York 5,Gregory Meeks,Democratic,0.9875,1.0,Gregory Meeks,George Marsh,0.012499999999999956,True
+house,MN-04,Minnesota 4,Betty McCollum,DFL,0.9875,1.0,Betty McCollum,Paul Wikstrom,0.012499999999999956,True
+house,NY-12,New York 12,Micah Lasher,Democratic,0.9875,1.0,Micah Lasher,Caroline Shinkle,0.012499999999999956,True
+house,NY-07,New York 7,Claire Valdez,Democratic/WFP,0.9875,1.0,Claire Valdez,Melvin Rivera,0.012499999999999956,True
+house,MI-11,Michigan 11,Jeremy Moss,Democratic,0.9875,1.0,Jeremy Moss,Ethan Baker,0.012499999999999956,True
+gov,MD,Maryland,Wes Moore,Democratic,0.9875,1.0,Wes Moore,Dan Cox,0.012499999999999956,True
+house,CA-44,California 44,Nanette Barragán,Democratic,0.9875,1.0,Nanette Barragán,Genevieve Angel,0.012499999999999956,True
+house,NJ-10,New Jersey 10,LaMonica McIver,Democratic,0.988,1.0,LaMonica McIver,Carmen Bucco,0.01200000000000001,True
+house,CA-51,California 51,Sara Jacobs,Democratic,0.988,1.0,Sara Jacobs,Ricardo Cabrera,0.01200000000000001,True
+house,CO-07,Colorado 7,Brittany Pettersen,Democratic,0.988,1.0,Brittany Pettersen,Tim Bennett,0.01200000000000001,True
+house,NY-09,New York 9,Yvette Clarke,Democratic,0.988,1.0,Yvette Clarke,Joel Anabilah-Azumah,0.01200000000000001,True
+house,CA-43,California 43,Maxine Waters,Democratic,0.988,1.0,Maxine Waters,Cristian Morales,0.01200000000000001,True
+house,CO-06,Colorado 6,Jason Crow,Democratic,0.988,1.0,Jason Crow,Jason Clark,0.01200000000000001,True
+house,NY-10,New York 10,Brad Lander,Democratic/WFP,0.9884999999999999,1.0,Brad Lander,Jennifer Moore,0.011500000000000066,True
+house,CA-16,California 16,Sam Liccardo,Democratic,0.9884999999999999,1.0,Sam Liccardo,Peter Sundin Soulé,0.011500000000000066,True
+house,WA-10,Washington 10,Marilyn Strickland,Democratic,0.9884999999999999,1.0,Marilyn Strickland,Chris D. Chung,0.011500000000000066,True
+house,IL-07,Illinois 7,La Shawn Ford,Democratic,0.9884999999999999,1.0,La Shawn Ford,Chad Koppie,0.011500000000000066,True
+house,NJ-11,New Jersey 11,Analilia Mejia,Democratic,0.9884999999999999,1.0,Analilia Mejia,Joe Hathaway,0.011500000000000066,True
+house,TX-18,Texas 18,Christian Menefee,Democratic,0.9884999999999999,1.0,Christian Menefee,Ronald Whitfield,0.011500000000000066,True
+house,VA-11,Virginia 11,James Walkinshaw,Democratic,0.9884999999999999,1.0,James Walkinshaw,Arthur Purves,0.011500000000000066,True
+house,MA-08,Massachusetts 8,Stephen Lynch,Democratic,0.9884999999999999,1.0,Stephen Lynch,Robert Burke,0.011500000000000066,True
+house,CT-03,Connecticut 3,Rosa DeLauro,Democratic,0.9884999999999999,1.0,Rosa DeLauro,Christopher Lancia,0.011500000000000066,True
+house,CA-52,California 52,Juan Vargas,Democratic,0.989,1.0,Juan Vargas,Jeff Belle,0.01100000000000001,True
+house,FL-10,Florida 10,Maxwell Frost,Democratic,0.989,1.0,Maxwell Frost,Republican party,0.01100000000000001,True
+house,NY-20,New York 20,Paul Tonko,Democratic/WFP,0.989,1.0,Paul Tonko,Ralph Ambrosio,0.01100000000000001,True
+house,NJ-03,New Jersey 3,Herb Conaway,Democratic,0.989,1.0,Herb Conaway,Michael McGuire,0.01100000000000001,True
+house,IL-09,Illinois 9,Daniel Biss,Democratic,0.989,1.0,Daniel Biss,John Elleson,0.01100000000000001,True
+house,CA-28,California 28,Judy Chu,Democratic,0.989,1.0,Judy Chu,April Verlato,0.01100000000000001,True
+house,CA-38,California 38,Hilda Solis,Democratic,0.989,1.0,Hilda Solis,Pedro Antonio Casas,0.01100000000000001,True
+sen,DE,Delaware,Chris Coons,Democratic,0.989,1.0,Chris Coons,Michael Katz,0.01100000000000001,True
+sen,CO,Colorado,John Hickenlooper,Democratic,0.989,1.0,John Hickenlooper,Mark Baisley,0.01100000000000001,True
+house,CA-35,California 35,Norma Torres,Democratic,0.989,1.0,Norma Torres,Mike Cargile,0.01100000000000001,True
+house,CA-18,California 18,Zoe Lofgren,Democratic,0.989,1.0,Zoe Lofgren,Shane Lewis,0.01100000000000001,True
+house,MD-07,Maryland 7,Kweisi Mfume,Democratic,0.989,1.0,Kweisi Mfume,Scott Collier,0.01100000000000001,True
+house,GA-02,Georgia 2,Sanford Bishop,Democratic,0.989,1.0,Sanford Bishop,Matt Day,0.01100000000000001,True
+house,HI-01,Hawaii 1,Ed Case,Democratic,0.989,1.0,Ed Case,Adriel Lam,0.01100000000000001,True
+house,NY-25,New York 25,Joseph Morelle,Democratic/WFP,0.989,1.0,Joseph Morelle,Virginia McIntyre,0.01100000000000001,True
+house,PA-02,Pennsylvania 2,Brendan Boyle,Democratic,0.989,1.0,Brendan Boyle,Jessica Arriaga,0.01100000000000001,True
+house,OR-01,Oregon 1,Suzanne Bonamici,Democratic,0.989,1.0,Suzanne Bonamici,Barbara Kahl,0.01100000000000001,True
+house,AL-03,Alabama 3,Mike Rogers,Republican,0.011,0.0,Lee McInnis,Mike Rogers,0.011,True
+house,AR-01,Arkansas 1,Rick Crawford,Republican,0.010499999999999999,0.0,Terri Yarbrough Green,Rick Crawford,0.010499999999999999,True
+house,CA-02,California 2,Jared Huffman,Democratic,0.9895,1.0,Jared Huffman,Robin Littau,0.010499999999999954,True
+house,CA-08,California 8,John Garamendi,Democratic,0.9895,1.0,John Garamendi,Rudy Recile,0.010499999999999954,True
+house,NY-06,New York 6,Grace Meng,Democratic,0.9895,1.0,Grace Meng,Joseph Chou,0.010499999999999954,True
+house,NJ-08,New Jersey 8,Rob Menendez,Democratic,0.9895,1.0,Rob Menendez,Republican party,0.010499999999999954,True
+sen,VA,Virginia,Mark Warner,Democratic,0.9895,1.0,Mark Warner,Bert Mizusawa,0.010499999999999954,True
+house,CT-01,Connecticut 1,Luke Bronin,Democratic,0.9895,1.0,Luke Bronin,Amy Chai,0.010499999999999954,True
+house,NY-08,New York 8,Hakeem Jeffries,Democratic,0.9895,1.0,Hakeem Jeffries,Lewis Mizrahi,0.010499999999999954,True
+sen,RI,Rhode Island,Jack Reed,Democratic,0.9895,1.0,Jack Reed,Raymond McKay,0.010499999999999954,True
+house,OR-03,Oregon 3,Maxine Dexter,Democratic,0.9895,1.0,Maxine Dexter,Loran Ayles,0.010499999999999954,True
+house,NY-13,New York 13,Darializa Avila Chevalier,Democratic/WFP,0.9895,1.0,Darializa Avila Chevalier,Jomo Williams,0.010499999999999954,True
+house,AZ-03,Arizona 3,Yassamin Ansari,Democratic,0.99,1.0,Yassamin Ansari,Republican party,0.010000000000000009,True
+house,AL-04,Alabama 4,Robert Aderholt,Republican,0.009999999999999998,0.0,Amanda Pusczek,Robert Aderholt,0.009999999999999998,True
+house,GA-09,Georgia 9,Andrew Clyde,Republican,0.009999999999999998,0.0,Caitlyn Gegen,Andrew Clyde,0.009999999999999998,True
+house,MA-07,Massachusetts 7,Ayanna Pressley,Democratic,0.9904999999999999,1.0,Ayanna Pressley,Republican party,0.009500000000000064,True
+house,CA-17,California 17,Ro Khanna,Democratic,0.9904999999999999,1.0,Ro Khanna,Ritesh Tandon,0.009500000000000064,True
+house,MA-02,Massachusetts 2,Jim McGovern,Democratic,0.9904999999999999,1.0,Jim McGovern,Republican party,0.009500000000000064,True
+house,MD-04,Maryland 4,Glenn Ivey,Democratic,0.9904999999999999,1.0,Glenn Ivey,George McDermott,0.009500000000000064,True
+house,WA-06,Washington 6,Emily Randall,Democratic,0.9904999999999999,1.0,Emily Randall,Teresa Fox,0.009500000000000064,True
+house,WA-07,Washington 7,Pramila Jayapal,Democratic,0.9904999999999999,1.0,Pramila Jayapal,Nirav Sheth,0.009500000000000064,True
+house,CO-02,Colorado 2,Joe Neguse,Democratic,0.991,1.0,Joe Neguse,Kelley Dennison,0.009000000000000008,True
+sen,MA,Massachusetts,Ed Markey,Democratic,0.991,1.0,Ed Markey,John Deaton,0.009000000000000008,True
+house,GA-06,Georgia 6,Lucy McBath,Democratic,0.9915,1.0,Lucy McBath,Kevin Martin,0.008499999999999952,True
+sen,OR,Oregon,Jeff Merkley,Democratic,0.9915,1.0,Jeff Merkley,David Brock Smith,0.008499999999999952,True
+house,CA-36,California 36,Ted Lieu,Democratic,0.992,1.0,Ted Lieu,Houston Brignano,0.008000000000000007,True
+house,WI-02,Wisconsin 2,Mark Pocan,Democratic,0.9924999999999999,1.0,Mark Pocan,Republican party,0.007500000000000062,True
+house,MS-02,Mississippi 2,Bennie Thompson,Democratic,0.9924999999999999,1.0,Bennie Thompson,Ron Eller,0.007500000000000062,True
+house,NY-14,New York 14,Alexandria Ocasio-Cortez,Democratic/WFP,0.9924999999999999,1.0,Alexandria Ocasio-Cortez,Diamant Hysenaj,0.007500000000000062,True
+house,NY-16,New York 16,George Latimer,Democratic,0.9924999999999999,1.0,George Latimer,Joseph Cinquemani,0.007500000000000062,True
+house,GA-05,Georgia 5,Nikema Williams,Democratic,0.993,1.0,Nikema Williams,John Salvesen,0.007000000000000006,True
+house,OR-06,Oregon 6,Andrea Salinas,Democratic,0.993,1.0,Andrea Salinas,David Russ,0.007000000000000006,True
+house,MA-05,Massachusetts 5,Katherine Clark,Democratic,0.993,1.0,Katherine Clark,Republican party,0.007000000000000006,True
+sen,ID,Idaho,Jim Risch,Republican,0.0045000000000000005,0.0,David Roth,Jim Risch,0.0045000000000000005,True
+house,CA-19,California 19,Jimmy Panetta,Democratic,0.996,1.0,Jimmy Panetta,Peter Verbica,0.0040000000000000036,True
+house,CA-15,California 15,Kevin Mullin,Democratic,0.997,1.0,Kevin Mullin,Charles Hoelter,0.0030000000000000027,True
+sen,MT,Montana,Kurt Alme,Republican,0.003,0.0,Alani Bankhead,Kurt Alme,0.003,True
+sen,SD,South Dakota,Mike Rounds,Republican,0.003,0.0,Julian Beaudion,Mike Rounds,0.003,True
+house,CA-32,California 32,Brad Sherman,Democratic,0.998,1.0,Brad Sherman,Larry Thompson,0.0020000000000000018,True
+sen,NE,Nebraska,Pete Ricketts,Republican,0.002,0.0,Cindy Burbank,Pete Ricketts,0.002,True

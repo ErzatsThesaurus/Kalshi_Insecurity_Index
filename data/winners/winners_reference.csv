@@ -1,0 +1,504 @@
+source,table,place,winner,party,winner_pct,n_candidates,issue
+house,17,Alabama 1,Jerry Carl,Republican,,2,ok_no_pct
+house,17,Alabama 2,Shomari Figures,Democratic,,2,ok_no_pct
+house,17,Alabama 3,Mike Rogers,Republican,,2,ok_no_pct
+house,17,Alabama 4,Robert Aderholt,Republican,,2,ok_no_pct
+house,17,Alabama 5,Dale Strong,Republican,,2,ok_no_pct
+house,17,Alabama 6,Gary Palmer,Republican,,2,ok_no_pct
+house,17,Alabama 7,Terri Sewell,Democratic,,2,ok_no_pct
+house,18,Alaska at-large,Nick Begich III,Republican,51.4,6,ok
+house,19,Arizona 1,Amish Shah,Democratic,,3,ok_no_pct
+house,19,Arizona 2,Eli Crane,Republican,,3,ok_no_pct
+house,19,Arizona 3,Yassamin Ansari,Democratic,,3,ok_no_pct
+house,19,Arizona 4,Greg Stanton,Democratic,,3,ok_no_pct
+house,19,Arizona 5,Mark Lamb,Republican,,2,ok_no_pct
+house,19,Arizona 6,JoAnna Mendoza,Democratic,,4,ok_no_pct
+house,19,Arizona 7,Adelita Grijalva,Democratic,,2,ok_no_pct
+house,19,Arizona 8,Abraham Hamadeh,Republican,,2,ok_no_pct
+house,19,Arizona 9,Paul Gosar,Republican,,2,ok_no_pct
+house,20,Arkansas 1,Rick Crawford,Republican,65.4,3,ok
+house,20,Arkansas 2,French Hill,Republican,50.8,2,ok
+house,20,Arkansas 3,Steve Womack,Republican,54.8,3,ok
+house,20,Arkansas 4,Bruce Westerman,Republican,65.5,2,ok
+house,21,California 1,Mike McGuire,Democratic,,2,ok_no_pct
+house,21,California 2,Jared Huffman,Democratic,,2,ok_no_pct
+house,21,California 3,Ami Bera,Democratic,,2,ok_no_pct
+house,21,California 4,Eric Jones,Democratic,,2,ok_no_pct
+house,21,California 5,Tom McClintock,Republican,,2,ok_no_pct
+house,21,California 6,Richard Pan,Democratic,,2,ok_no_pct
+house,21,California 7,Doris Matsui,Democratic,,2,ok_no_pct
+house,21,California 8,John Garamendi,Democratic,,2,ok_no_pct
+house,21,California 9,Josh Harder,Democratic,,2,ok_no_pct
+house,21,California 10,Mark DeSaulnier,Democratic,,2,ok_no_pct
+house,21,California 11,Scott Wiener,Democratic,,2,ok_no_pct
+house,21,California 12,Lateefah Simon,Democratic,,2,ok_no_pct
+house,21,California 13,Adam Gray,Democratic,,2,ok_no_pct
+house,21,California 14,Aisha Wahab,Democratic,,2,ok_no_pct
+house,21,California 15,Kevin Mullin,Democratic,,2,ok_no_pct
+house,21,California 16,Sam Liccardo,Democratic,,2,ok_no_pct
+house,21,California 17,Ro Khanna,Democratic,,2,ok_no_pct
+house,21,California 18,Zoe Lofgren,Democratic,,2,ok_no_pct
+house,21,California 19,Jimmy Panetta,Democratic,,2,ok_no_pct
+house,21,California 20,Vince Fong,Republican,,2,ok_no_pct
+house,21,California 21,Jim Costa,Democratic,,2,ok_no_pct
+house,21,California 22,Randy Villegas,Democratic,,2,ok_no_pct
+house,21,California 23,Jay Obernolte,Republican,,2,ok_no_pct
+house,21,California 24,Salud Carbajal,Democratic,,2,ok_no_pct
+house,21,California 25,Raul Ruiz,Democratic,,2,ok_no_pct
+house,21,California 26,Jacqui Irwin,Democratic,,2,ok_no_pct
+house,21,California 27,George T. Whitesides,Democratic,,2,ok_no_pct
+house,21,California 28,Judy Chu,Democratic,,2,ok_no_pct
+house,21,California 29,Luz Rivas,Democratic,,2,ok_no_pct
+house,21,California 30,Laura Friedman,Democratic,,2,ok_no_pct
+house,21,California 31,Gil Cisneros,Democratic,,2,ok_no_pct
+house,21,California 32,Brad Sherman,Democratic,,2,ok_no_pct
+house,21,California 33,Pete Aguilar,Democratic,,2,ok_no_pct
+house,21,California 34,Angela Gonzales-Torres,Democratic,,2,ok_no_pct
+house,21,California 35,Norma Torres,Democratic,,2,ok_no_pct
+house,21,California 36,Ted Lieu,Democratic,,2,ok_no_pct
+house,21,California 37,Sydney Kamlager-Dove,Democratic,,2,ok_no_pct
+house,21,California 38,Hilda Solis,Democratic,,2,ok_no_pct
+house,21,California 39,Mark Takano,Democratic,,2,ok_no_pct
+house,21,California 40,Ken Calvert,Republican,,2,ok_no_pct
+house,21,California 41,Linda Sánchez,Democratic,,2,ok_no_pct
+house,21,California 42,Robert Garcia,Democratic,,2,ok_no_pct
+house,21,California 43,Maxine Waters,Democratic,,2,ok_no_pct
+house,21,California 44,Nanette Barragán,Democratic,,2,ok_no_pct
+house,21,California 45,Derek Tran,Democratic,,2,ok_no_pct
+house,21,California 46,Lou Correa,Democratic,,2,ok_no_pct
+house,21,California 47,Dave Min,Democratic,,2,ok_no_pct
+house,21,California 48,Marni von Wilpert,Democratic,,2,ok_no_pct
+house,21,California 49,Mike Levin,Democratic,,2,ok_no_pct
+house,21,California 50,Scott Peters,Democratic,,2,ok_no_pct
+house,21,California 51,Sara Jacobs,Democratic,,2,ok_no_pct
+house,21,California 52,Juan Vargas,Democratic,,2,ok_no_pct
+house,22,Colorado 1,Melat Kiros,Democratic,,5,ok_no_pct
+house,22,Colorado 2,Joe Neguse,Democratic,,3,ok_no_pct
+house,22,Colorado 3,Jeff Hurd,Republican,,4,ok_no_pct
+house,22,Colorado 4,Eileen Laubacher,Democratic,,3,ok_no_pct
+house,22,Colorado 5,Jessica Killin,Democratic,,4,ok_no_pct
+house,22,Colorado 6,Jason Crow,Democratic,,5,ok_no_pct
+house,22,Colorado 7,Brittany Pettersen,Democratic,,6,ok_no_pct
+house,22,Colorado 8,Manny Rutinel,Democratic,,3,ok_no_pct
+house,23,Connecticut 1,Luke Bronin,Democratic,,3,ok_no_pct
+house,23,Connecticut 2,Joe Courtney,Democratic,,2,ok_no_pct
+house,23,Connecticut 3,Rosa DeLauro,Democratic,,3,ok_no_pct
+house,23,Connecticut 4,Jim Himes,Democratic,,3,ok_no_pct
+house,23,Connecticut 5,Jahana Hayes,Democratic/WFP,,2,ok_no_pct
+house,24,Delaware at-large,Sarah McBride,Democratic,64.3,2,ok
+house,25,Florida 1,Jimmy Patronis,Republican,62.5,3,ok
+house,25,Florida 2,Austin Rogers,Republican,52.1,2,ok
+house,25,Florida 3,Kat Cammack,Republican,55.1,3,ok
+house,25,Florida 4,Aaron Bean,Republican,50.2,4,ok
+house,25,Florida 5,John Rutherford,Republican,56.4,2,ok
+house,25,Florida 6,Randy Fine,Republican,58.9,3,ok
+house,25,Florida 7,Ryan Elijah,Republican,49.7,3,ok
+house,25,Florida 8,Mike Haridopolos,Republican,53.2,2,ok
+house,25,Florida 9,Darren Soto,Democratic,50.3,2,ok
+house,25,Florida 10,Maxwell Frost,Democratic,,1,ok
+house,25,Florida 11,Joe Strada,Republican,52.9,3,ok
+house,25,Florida 12,Gus Bilirakis,Republican,52.7,3,ok
+house,25,Florida 13,Anna Paulina Luna,Republican,49.5,3,ok
+house,25,Florida 14,Kathy Castor,Democratic,51.2,3,ok
+house,25,Florida 15,Laurel Lee,Republican,54.3,2,ok
+house,25,Florida 16,Sydney Gruters,Republican,51.2,3,ok
+house,25,Florida 17,Greg Steube,Republican,58.4,3,ok
+house,25,Florida 18,Scott Franklin,Republican,50.3,3,ok
+house,25,Florida 19,Jim Schwartzel,Republican,61.1,3,ok
+house,25,Florida 20,Debbie Wasserman Schultz,Democratic,74.4,3,ok
+house,25,Florida 21,Brian Mast,Republican,53.9,3,ok
+house,25,Florida 22,Pia Dandiya,Democratic,51.9,2,ok
+house,25,Florida 23,Lois Frankel,Democratic,65.7,2,ok
+house,25,Florida 24,Oliver Gilbert,Democratic,80.6,2,ok
+house,25,Florida 25,Jared Moskowitz,Democratic,51.3,3,ok
+house,25,Florida 26,Mario Díaz-Balart,Republican,49.9,3,ok
+house,25,Florida 27,María Elvira Salazar,Republican,50.2,2,ok
+house,25,Florida 28,Carlos A. Gimenez,Republican,52.9,3,ok
+house,26,Georgia 1,Jim Kingston,Republican,51.4,2,ok
+house,26,Georgia 2,Sanford Bishop,Democratic,60.8,2,ok
+house,26,Georgia 3,Brian Jack,Republican,58.6,2,ok
+house,26,Georgia 4,Hank Johnson,Democratic,82.6,2,ok
+house,26,Georgia 5,Nikema Williams,Democratic,90.2,2,ok
+house,26,Georgia 6,Lucy McBath,Democratic,80.9,2,ok
+house,26,Georgia 7,Rich McCormick,Republican,56.2,2,ok
+house,26,Georgia 8,Austin Scott,Republican,60.4,2,ok
+house,26,Georgia 9,Andrew Clyde,Republican,59.3,2,ok
+house,26,Georgia 10,Houston Gaines,Republican,53.6,2,ok
+house,26,Georgia 11,John Cowan,Republican,55.3,2,ok
+house,26,Georgia 12,Rick Allen,Republican,52.1,2,ok
+house,26,Georgia 13,Jasmine Clark,Democratic,79.8,2,ok
+house,26,Georgia 14,Clay Fuller,Republican,58.8,2,ok
+house,27,Hawaii 1,Ed Case,Democratic,71.8,4,ok
+house,27,Hawaii 2,Jill Tokuda,Democratic,66.5,2,ok
+house,28,Idaho 1,Russ Fulcher,Republican,64.2,4,ok
+house,28,Idaho 2,Mike Simpson,Republican,51.7,5,ok
+house,29,Illinois 1,Jonathan Jackson,Democratic,,2,ok_no_pct
+house,29,Illinois 2,Donna Miller,Democratic,,2,ok_no_pct
+house,29,Illinois 3,Delia Ramirez,Democratic,,2,ok_no_pct
+house,29,Illinois 4,Patty García,Democratic,,4,ok_no_pct
+house,29,Illinois 5,Mike Quigley,Democratic,,2,ok_no_pct
+house,29,Illinois 6,Sean Casten,Democratic,,2,ok_no_pct
+house,29,Illinois 7,La Shawn Ford,Democratic,,2,ok_no_pct
+house,29,Illinois 8,Melissa Bean,Democratic,,2,ok_no_pct
+house,29,Illinois 9,Daniel Biss,Democratic,,2,ok_no_pct
+house,29,Illinois 10,Brad Schneider,Democratic,,2,ok_no_pct
+house,29,Illinois 11,Bill Foster,Democratic,,2,ok_no_pct
+house,29,Illinois 12,Mike Bost,Republican,,2,ok_no_pct
+house,29,Illinois 13,Nikki Budzinski,Democratic,,2,ok_no_pct
+house,29,Illinois 14,Lauren Underwood,Democratic,,2,ok_no_pct
+house,29,Illinois 15,Mary Miller,Republican,,2,ok_no_pct
+house,29,Illinois 16,Darin LaHood,Republican,,2,ok_no_pct
+house,29,Illinois 17,Eric Sorensen,Democratic,,2,ok_no_pct
+house,30,Indiana 1,Frank J. Mrvan,Democratic,,2,ok_no_pct
+house,30,Indiana 2,Rudy Yakym,Republican,,3,ok_no_pct
+house,30,Indiana 3,Marlin Stutzman,Republican,,2,ok_no_pct
+house,30,Indiana 4,Jim Baird,Republican,,2,ok_no_pct
+house,30,Indiana 5,J. D. Ford,Democratic,,2,ok_no_pct
+house,30,Indiana 6,Jefferson Shreve,Republican,,2,ok_no_pct
+house,30,Indiana 7,André Carson,Democratic,,3,ok_no_pct
+house,30,Indiana 8,Mark Messmer,Republican,,2,ok_no_pct
+house,30,Indiana 9,Erin Houchin,Republican,,3,ok_no_pct
+house,31,Iowa 1,Christina Bohannan,Democratic,,3,ok_no_pct
+house,31,Iowa 2,Lindsay James,Democratic,,4,ok_no_pct
+house,31,Iowa 3,Sarah Trone Garriott,Democratic,,2,ok_no_pct
+house,31,Iowa 4,Chris McGowan,Republican,,2,ok_no_pct
+house,32,Kansas 1,Tracey Mann,Republican,59.2,3,ok
+house,32,Kansas 2,Derek Schmidt,Republican,51.0,3,ok
+house,32,Kansas 3,Sharice Davids,Democratic,59.6,3,ok
+house,32,Kansas 4,Ron Estes,Republican,53.3,3,ok
+house,33,Kentucky 1,James Comer,Republican,67.6,2,ok
+house,33,Kentucky 2,Brett Guthrie,Republican,62.8,3,ok
+house,33,Kentucky 3,Morgan McGarvey,Democratic,70.3,2,ok
+house,33,Kentucky 4,Ed Gallrein,Republican,54.2,3,ok
+house,33,Kentucky 5,Hal Rogers,Republican,71.2,4,ok
+house,33,Kentucky 6,Zach Dembo,Democratic,52.7,4,ok
+house,34,Louisiana 1,Steve Scalise,Republican,60.7,4,ok
+house,34,Louisiana 2,Troy Carter,Democratic,79.9,5,ok
+house,34,Louisiana 3,Clay Higgins,Republican,55.0,6,ok
+house,34,Louisiana 4,Mike Johnson,Republican,58.5,5,ok
+house,35,Maine 1,Chellie Pingree,Democratic,,2,ok_no_pct
+house,35,Maine 2,Paul LePage,Republican,,2,ok_no_pct
+house,36,Maryland 1,Andy Harris,Republican,52.1,2,ok
+house,36,Maryland 2,Johnny Olszewski,Democratic,65.0,2,ok
+house,36,Maryland 3,Sarah Elfreth,Democratic,67.7,2,ok
+house,36,Maryland 4,Glenn Ivey,Democratic,,3,ok_no_pct
+house,36,Maryland 5,Adrian Boafo,Democratic,,2,ok_no_pct
+house,36,Maryland 6,April McClain Delaney,Democratic,59.3,3,ok
+house,36,Maryland 7,Kweisi Mfume,Democratic,85.1,2,ok
+house,36,Maryland 8,Jamie Raskin,Democratic,,3,ok_no_pct
+house,37,Massachusetts 1,Richard Neal,Democratic,65.0,2,ok
+house,37,Massachusetts 2,Jim McGovern,Democratic,,1,ok
+house,37,Massachusetts 3,Lori Trahan,Democratic,67.3,3,ok
+house,37,Massachusetts 4,Jake Auchincloss,Democratic,66.5,2,ok
+house,37,Massachusetts 5,Katherine Clark,Democratic,,1,ok
+house,37,Massachusetts 6,Dan Koh,Democratic,63.4,2,ok
+house,37,Massachusetts 7,Ayanna Pressley,Democratic,,1,ok
+house,37,Massachusetts 8,Stephen Lynch,Democratic,69.7,3,ok
+house,37,Massachusetts 9,Bill Keating,Democratic,60.9,2,ok
+house,38,Michigan 1,Jack Bergman,Republican,,7,ok_no_pct
+house,38,Michigan 2,John Moolenaar,Republican,,4,ok_no_pct
+house,38,Michigan 3,Hillary Scholten,Democratic,,3,ok_no_pct
+house,38,Michigan 4,Sean McCann,Democratic,,3,ok_no_pct
+house,38,Michigan 5,Tim Walberg,Republican,,5,ok_no_pct
+house,38,Michigan 6,Debbie Dingell,Democratic,,6,ok_no_pct
+house,38,Michigan 7,William Lawrence,Democratic,,3,ok_no_pct
+house,38,Michigan 8,Kristen McDonald Rivet,Democratic,,5,ok_no_pct
+house,38,Michigan 9,Lisa McClain,Republican,,6,ok_no_pct
+house,38,Michigan 10,Christina Hines,Democratic,,5,ok_no_pct
+house,38,Michigan 11,Jeremy Moss,Democratic,,5,ok_no_pct
+house,38,Michigan 12,Rashida Tlaib,Democratic,,5,ok_no_pct
+house,38,Michigan 13,Donavan McKinney,Democratic,,5,ok_no_pct
+house,39,Minnesota 2,Matt Little,DFL,57.1,2,ok
+house,39,Minnesota 3,Kelly Morrison,DFL,64.0,2,ok
+house,39,Minnesota 4,Betty McCollum,DFL,73.1,2,ok
+house,39,Minnesota 5,Ilhan Omar,DFL,76.5,3,ok
+house,39,Minnesota 6,Tom Emmer,Republican,55.7,2,ok
+house,39,Minnesota 7,Michelle Fischbach,Republican,64.9,2,ok
+house,39,Minnesota 8,Pete Stauber,Republican,53.0,2,ok
+house,40,Mississippi 1,Trent Kelly,Republican,,3,ok_no_pct
+house,40,Mississippi 2,Bennie Thompson,Democratic,,3,ok_no_pct
+house,40,Mississippi 3,Michael Guest,Republican,,3,ok_no_pct
+house,40,Mississippi 4,Mike Ezell,Republican,,3,ok_no_pct
+house,41,Missouri 1,Wesley Bell,Democratic,,3,ok_no_pct
+house,41,Missouri 2,Fred Wellman,Democratic,,3,ok_no_pct
+house,41,Missouri 3,Bob Onder,Republican,,3,ok_no_pct
+house,41,Missouri 4,Mark Alford,Republican,,3,ok_no_pct
+house,41,Missouri 5,Emanuel Cleaver,Democratic,,3,ok_no_pct
+house,41,Missouri 6,Chris Stigall,Republican,,3,ok_no_pct
+house,41,Missouri 7,Eric Burlison,Republican,,3,ok_no_pct
+house,41,Missouri 8,Jason Smith,Republican,,3,ok_no_pct
+house,42,Montana 1,Sam Forstag,Democratic,,3,ok_no_pct
+house,42,Montana 2,Troy Downing,Republican,,4,ok_no_pct
+house,43,Nebraska 1,Mike Flood,Republican,,4,ok_no_pct
+house,43,Nebraska 2,Denise Powell,Democratic,,3,ok_no_pct
+house,43,Nebraska 3,Adrian Smith,Republican,,5,ok_no_pct
+house,44,Nevada 1,Dina Titus,Democratic,,4,ok_no_pct
+house,44,Nevada 2,Teresa Benitez-Thompson,Democratic,,3,ok_no_pct
+house,44,Nevada 3,Susie Lee,Democratic,,3,ok_no_pct
+house,44,Nevada 4,Steven Horsford,Democratic,,4,ok_no_pct
+house,45,New Hampshire 1,Stefany Shaheen,Democratic,56.9,2,ok
+house,45,New Hampshire 2,Maggie Goodlander,Democratic,58.8,3,ok
+house,46,New Jersey 1,Donald Norcross,Democratic,,2,ok_no_pct
+house,46,New Jersey 2,Zack Mullock,Democratic,,3,ok_no_pct
+house,46,New Jersey 3,Herb Conaway,Democratic,,4,ok_no_pct
+house,46,New Jersey 4,Chris Smith,Republican,,2,ok_no_pct
+house,46,New Jersey 5,Josh Gottheimer,Democratic,,3,ok_no_pct
+house,46,New Jersey 6,Frank Pallone,Democratic,,2,ok_no_pct
+house,46,New Jersey 7,Rebecca Bennett,Democratic,,3,ok_no_pct
+house,46,New Jersey 8,Rob Menendez,Democratic,,4,ok_no_pct
+house,46,New Jersey 9,Nellie Pou,Democratic,,3,ok_no_pct
+house,46,New Jersey 10,LaMonica McIver,Democratic,,2,ok_no_pct
+house,46,New Jersey 11,Analilia Mejia,Democratic,,3,ok_no_pct
+house,46,New Jersey 12,Adam Hamawy,Democratic,,4,ok_no_pct
+house,47,New Mexico 1,Melanie Stansbury,Democratic,,2,ok_no_pct
+house,47,New Mexico 2,Gabe Vasquez,Democratic,,2,ok_no_pct
+house,47,New Mexico 3,Teresa Leger Fernández,Democratic,,2,ok_no_pct
+house,48,New York 1,Nick LaLota,Republican/Cons.,,2,ok_no_pct
+house,48,New York 2,Andrew Garbarino,Republican/Cons.,,2,ok_no_pct
+house,48,New York 3,Tom Suozzi,Democratic,,2,ok_no_pct
+house,48,New York 4,Laura Gillen,Democratic,,3,ok_no_pct
+house,48,New York 5,Gregory Meeks,Democratic,,2,ok_no_pct
+house,48,New York 6,Grace Meng,Democratic,,2,ok_no_pct
+house,48,New York 7,Claire Valdez,Democratic/WFP,,3,ok_no_pct
+house,48,New York 8,Hakeem Jeffries,Democratic,,2,ok_no_pct
+house,48,New York 9,Yvette Clarke,Democratic,,2,ok_no_pct
+house,48,New York 10,Brad Lander,Democratic/WFP,,2,ok_no_pct
+house,48,New York 11,Nicole Malliotakis,Republican/Cons.,,2,ok_no_pct
+house,48,New York 12,Micah Lasher,Democratic,,4,ok_no_pct
+house,48,New York 13,Darializa Avila Chevalier,Democratic/WFP,,2,ok_no_pct
+house,48,New York 14,Alexandria Ocasio-Cortez,Democratic/WFP,,2,ok_no_pct
+house,48,New York 15,Ritchie Torres,Democratic,,5,ok_no_pct
+house,48,New York 16,George Latimer,Democratic,,2,ok_no_pct
+house,48,New York 17,Cait Conley,Democratic/WFP,,2,ok_no_pct
+house,48,New York 18,Pat Ryan,Democratic/WFP,,2,ok_no_pct
+house,48,New York 19,Josh Riley,Democratic/WFP,,2,ok_no_pct
+house,48,New York 20,Paul Tonko,Democratic/WFP,,2,ok_no_pct
+house,48,New York 21,Anthony Constantino,Republican,,2,ok_no_pct
+house,48,New York 22,John Mannion,Democratic/WFP,,2,ok_no_pct
+house,48,New York 23,Nick Langworthy,Republican/Cons.,,2,ok_no_pct
+house,48,New York 24,Claudia Tenney,Republican/Cons.,,2,ok_no_pct
+house,48,New York 25,Joseph Morelle,Democratic/WFP,,2,ok_no_pct
+house,48,New York 26,Tim Kennedy,Democratic,,2,ok_no_pct
+house,49,North Carolina 1,Don Davis,Democratic,,3,ok_no_pct
+house,49,North Carolina 2,Deborah Ross,Democratic,,3,ok_no_pct
+house,49,North Carolina 3,Raymond Smith Jr.,Democratic,,3,ok_no_pct
+house,49,North Carolina 4,Valerie Foushee,Democratic,,3,ok_no_pct
+house,49,North Carolina 5,Chuck Hubbard,Democratic,,3,ok_no_pct
+house,49,North Carolina 6,Cyril Jefferson,Democratic,,2,ok_no_pct
+house,49,North Carolina 7,David Rouzer,Republican,,3,ok_no_pct
+house,49,North Carolina 8,Mark Harris,Republican,,3,ok_no_pct
+house,49,North Carolina 9,Richard Ojeda,Democratic,,2,ok_no_pct
+house,49,North Carolina 10,Pat Harrigan,Republican,,3,ok_no_pct
+house,49,North Carolina 11,Jamie Ager,Democratic,,3,ok_no_pct
+house,49,North Carolina 12,Alma Adams,Democratic,,2,ok_no_pct
+house,49,North Carolina 13,Paul Barringer,Democratic,,3,ok_no_pct
+house,49,North Carolina 14,LaKesha Womack,Democratic,,2,ok_no_pct
+house,50,North Dakota at-large,Julie Fedorchak,Republican,57.3,4,ok
+house,51,Ohio 1,Greg Landsman,Democratic,,3,ok_no_pct
+house,51,Ohio 2,David Taylor,Republican,,2,ok_no_pct
+house,51,Ohio 3,Joyce Beatty,Democratic,,2,ok_no_pct
+house,51,Ohio 4,Jim Jordan,Republican,,3,ok_no_pct
+house,51,Ohio 5,Bob Latta,Republican,,3,ok_no_pct
+house,51,Ohio 6,Michael Rulli,Republican,,2,ok_no_pct
+house,51,Ohio 7,Brian Poindexter,Democratic,,2,ok_no_pct
+house,51,Ohio 8,Warren Davidson,Republican,,2,ok_no_pct
+house,51,Ohio 9,Marcy Kaptur,Democratic,,3,ok_no_pct
+house,51,Ohio 10,Kristina Knickerbocker,Democratic,,3,ok_no_pct
+house,51,Ohio 11,Shontel Brown,Democratic,,2,ok_no_pct
+house,51,Ohio 12,Troy Balderson,Republican,,2,ok_no_pct
+house,51,Ohio 13,Emilia Sykes,Democratic,,3,ok_no_pct
+house,51,Ohio 14,David Joyce,Republican,,2,ok_no_pct
+house,51,Ohio 15,Don Leonard,Democratic,,3,ok_no_pct
+house,52,Oklahoma 1,Mark Tedford,Republican,52.3,2,ok
+house,52,Oklahoma 2,Josh Brecheen,Republican,68.0,3,ok
+house,52,Oklahoma 3,Frank Lucas,Republican,64.0,2,ok
+house,52,Oklahoma 4,Tom Cole,Republican,57.6,3,ok
+house,52,Oklahoma 5,Stephanie Bice,Republican,49.5,4,ok
+house,53,Oregon 1,Suzanne Bonamici,Democratic,,2,ok_no_pct
+house,53,Oregon 2,Cliff Bentz,Republican,,2,ok_no_pct
+house,53,Oregon 3,Maxine Dexter,Democratic,,2,ok_no_pct
+house,53,Oregon 4,Val Hoyle,Democratic,,3,ok_no_pct
+house,53,Oregon 5,Janelle Bynum,Democratic,,3,ok_no_pct
+house,53,Oregon 6,Andrea Salinas,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 1,Bob Harvie,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 2,Brendan Boyle,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 3,Chris Rabb,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 4,Madeleine Dean,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 5,Mary Gay Scanlon,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 6,Chrissy Houlahan,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 7,Bob Brooks,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 8,Paige Cognetti,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 9,Dan Meuser,Republican,,2,ok_no_pct
+house,54,Pennsylvania 10,Janelle Stelson,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 11,Lloyd Smucker,Republican,,2,ok_no_pct
+house,54,Pennsylvania 12,Summer Lee,Democratic,,2,ok_no_pct
+house,54,Pennsylvania 13,John Joyce,Republican,,2,ok_no_pct
+house,54,Pennsylvania 14,Guy Reschenthaler,Republican,,2,ok_no_pct
+house,54,Pennsylvania 15,Glenn Thompson,Republican,,2,ok_no_pct
+house,54,Pennsylvania 16,Mike Kelly,Republican,,2,ok_no_pct
+house,54,Pennsylvania 17,Chris Deluzio,Democratic,,2,ok_no_pct
+house,55,Rhode Island 1,Gabe Amo,Democratic,,3,ok_no_pct
+house,55,Rhode Island 2,Seth Magaziner,Democratic,,2,ok_no_pct
+house,56,South Carolina 1,Nancy Lacore,Democratic,49.7,3,ok
+house,56,South Carolina 2,Joe Wilson,Republican,49.8,3,ok
+house,56,South Carolina 3,Sheri Biggs,Republican,63.7,3,ok
+house,56,South Carolina 4,William Timmons,Republican,51.7,3,ok
+house,56,South Carolina 5,Wes Climer,Republican,52.8,2,ok
+house,56,South Carolina 6,Jim Clyburn,Democratic,69.3,2,ok
+house,56,South Carolina 7,Russell Fry,Republican,56.7,2,ok
+house,57,South Dakota at-large,Marty Jackley,Republican,64.0,2,ok
+house,58,Tennessee 1,Diana Harshbarger,Republican,,7,ok_no_pct
+house,58,Tennessee 2,Tim Burchett,Republican,,4,ok_no_pct
+house,58,Tennessee 3,Chuck Fleischmann,Republican,,7,ok_no_pct
+house,58,Tennessee 4,Victoria Broderick,Democratic,,4,ok_no_pct
+house,58,Tennessee 5,Charlie Hatcher,Republican,,4,ok_no_pct
+house,58,Tennessee 6,Johnny Garrett,Republican,,4,ok_no_pct
+house,58,Tennessee 7,Matt Van Epps,Republican,,4,ok_no_pct
+house,58,Tennessee 8,David Kustoff,Republican,,8,ok_no_pct
+house,58,Tennessee 9,Brent Taylor,Republican,,4,ok_no_pct
+house,59,Texas 1,Nathaniel Moran,Republican,,2,ok_no_pct
+house,59,Texas 2,Steve Toth,Republican,,2,ok_no_pct
+house,59,Texas 3,Keith Self,Republican,,2,ok_no_pct
+house,59,Texas 4,Pat Fallon,Republican,,2,ok_no_pct
+house,59,Texas 5,Lance Gooden,Republican,,2,ok_no_pct
+house,59,Texas 6,Jake Ellzey,Republican,,2,ok_no_pct
+house,59,Texas 7,Lizzie Fletcher,Democratic,,3,ok_no_pct
+house,59,Texas 8,Jessica Steinmann,Republican,,2,ok_no_pct
+house,59,Texas 9,Leticia Gutierrez,Democratic,,2,ok_no_pct
+house,59,Texas 10,Chris Gober,Republican,,2,ok_no_pct
+house,59,Texas 11,August Pfluger,Republican,,2,ok_no_pct
+house,59,Texas 12,Craig Goldman,Republican,,2,ok_no_pct
+house,59,Texas 13,Ronny Jackson,Republican,,2,ok_no_pct
+house,59,Texas 14,Randy Weber,Republican,,2,ok_no_pct
+house,59,Texas 15,Bobby Pulido,Democratic,,2,ok_no_pct
+house,59,Texas 16,Veronica Escobar,Democratic,,2,ok_no_pct
+house,59,Texas 17,Pete Sessions,Republican,,2,ok_no_pct
+house,59,Texas 18,Christian Menefee,Democratic,,2,ok_no_pct
+house,59,Texas 19,Tom Sell,Republican,,2,ok_no_pct
+house,59,Texas 20,Joaquin Castro,Democratic,,2,ok_no_pct
+house,59,Texas 21,Mark Teixeira,Republican,,2,ok_no_pct
+house,59,Texas 22,Trever Nehls,Republican,,2,ok_no_pct
+house,59,Texas 23,Katy Padilla Stout,Democratic,,3,ok_no_pct
+house,59,Texas 24,Beth Van Duyne,Republican,,2,ok_no_pct
+house,59,Texas 25,Roger Williams,Republican,,2,ok_no_pct
+house,59,Texas 26,Brandon Gill,Republican,,3,ok_no_pct
+house,59,Texas 27,Michael Cloud,Republican,,2,ok_no_pct
+house,59,Texas 28,Henry Cuellar,Democratic,,3,ok_no_pct
+house,59,Texas 29,Sylvia Garcia,Democratic,,2,ok_no_pct
+house,59,Texas 30,Frederick Haynes III,Democratic,,2,ok_no_pct
+house,59,Texas 31,John Carter,Republican,,3,ok_no_pct
+house,59,Texas 32,Jace Yarbrough,Republican,,2,ok_no_pct
+house,59,Texas 33,Colin Allred,Democratic,,2,ok_no_pct
+house,59,Texas 34,Vicente Gonzalez,Democratic,,4,ok_no_pct
+house,59,Texas 35,Johnny Garcia,Democratic,,2,ok_no_pct
+house,59,Texas 36,Brian Babin,Republican,,2,ok_no_pct
+house,59,Texas 37,Greg Casar,Democratic,,2,ok_no_pct
+house,59,Texas 38,Jon Bonck,Republican,,3,ok_no_pct
+house,60,Utah 1,Ben McAdams,Democratic,,4,ok_no_pct
+house,60,Utah 2,Blake Moore,Republican,,5,ok_no_pct
+house,60,Utah 3,Celeste Maloy,Republican,,6,ok_no_pct
+house,60,Utah 4,Mike Kennedy,Republican,,4,ok_no_pct
+house,61,Vermont at-large,Becca Balint,Democratic,65.2,6,ok
+house,62,Virginia 1,Shannon Taylor,Democratic,,2,ok_no_pct
+house,62,Virginia 2,Elaine Luria,Democratic,,4,ok_no_pct
+house,62,Virginia 3,Bobby Scott,Democratic,,4,ok_no_pct
+house,62,Virginia 4,Jennifer McClellan,Democratic,,3,ok_no_pct
+house,62,Virginia 5,John McGuire,Republican,,3,ok_no_pct
+house,62,Virginia 6,Ben Cline,Republican,,2,ok_no_pct
+house,62,Virginia 7,Eugene Vindman,Democratic,,6,ok_no_pct
+house,62,Virginia 8,Don Beyer,Democratic,,4,ok_no_pct
+house,62,Virginia 9,Morgan Griffith,Republican,,2,ok_no_pct
+house,62,Virginia 10,Suhas Subramanyam,Democratic,,3,ok_no_pct
+house,62,Virginia 11,James Walkinshaw,Democratic,,3,ok_no_pct
+house,63,Washington 1,Suzan DelBene,Democratic,,2,ok_no_pct
+house,63,Washington 2,Rick Larsen,Democratic,,2,ok_no_pct
+house,63,Washington 3,Marie Gluesenkamp Perez,Democratic,,2,ok_no_pct
+house,63,Washington 4,Amanda McKinney,Republican,,2,ok_no_pct
+house,63,Washington 5,Michael Baumgartner,Republican,,2,ok_no_pct
+house,63,Washington 6,Emily Randall,Democratic,,2,ok_no_pct
+house,63,Washington 7,Pramila Jayapal,Democratic,,2,ok_no_pct
+house,63,Washington 8,Kim Schrier,Democratic,,2,ok_no_pct
+house,63,Washington 9,Adam Smith,Democratic,,2,ok_no_pct
+house,63,Washington 10,Marilyn Strickland,Democratic,,2,ok_no_pct
+house,64,West Virginia 1,Carol Miller,Republican,,3,ok_no_pct
+house,64,West Virginia 2,Riley Moore,Republican,,2,ok_no_pct
+house,65,Wisconsin 1,Mitchell Berman,Democratic,,2,ok_no_pct
+house,65,Wisconsin 2,Mark Pocan,Democratic,,1,ok
+house,65,Wisconsin 3,Rebecca Cooke,Democratic,,4,ok_no_pct
+house,65,Wisconsin 4,Gwen Moore,Democratic,,3,ok_no_pct
+house,65,Wisconsin 5,Scott Fitzgerald,Republican,,2,ok_no_pct
+house,65,Wisconsin 6,Glenn Grothman,Republican,,5,ok_no_pct
+house,65,Wisconsin 7,Michael Alfonso,Republican,,2,ok_no_pct
+house,65,Wisconsin 8,Tony Wied,Republican,,2,ok_no_pct
+house,66,Wyoming at-large,Chuck Gray,Republican,54.2,4,ok
+guber,4,Alabama,Tommy Tuberville,Republican,52.0,2,ok
+guber,4,Alaska,Jonathan Kreiss-Tomkins,Democratic,50.2,4,ok
+guber,4,Arizona,Katie Hobbs,Democratic,55.4,4,ok
+guber,4,Arkansas,Sarah Huckabee Sanders,Republican,53.9,3,ok
+guber,4,California,Xavier Becerra,Democratic,64.6,2,ok
+guber,4,Colorado,Phil Weiser,Democratic,60.8,7,ok
+guber,4,Connecticut,Ned Lamont,Democratic,59.3,2,ok
+guber,4,Florida,Byron Donalds,Republican,50.0,8,ok
+guber,4,Georgia,Keisha Lance Bottoms,Democratic,54.3,2,ok
+guber,4,Hawaii,Josh Green,Democratic,71.2,2,ok
+guber,4,Idaho,Brad Little,Republican,57.1,5,ok
+guber,4,Illinois,JB Pritzker,Democratic,59.8,3,ok
+guber,4,Iowa,Rob Sand,Democratic,55.5,2,ok
+guber,4,Kansas,Cindy Holscher,Democratic,50.3,2,ok
+guber,4,Maine,Hannah Pingree,Democratic,54.5,3,ok
+guber,4,Maryland,Wes Moore,Democratic,62.8,4,ok
+guber,4,Massachusetts,Maura Healey,Democratic,62.2,3,ok
+guber,4,Michigan,Jocelyn Benson,Democratic,54.5,5,ok
+guber,4,Minnesota,Amy Klobuchar,DFL,55.5,3,ok
+guber,4,Nebraska,Jim Pillen,Republican,50.8,4,ok
+guber,4,Nevada,Aaron Ford,Democratic,51.5,3,ok
+guber,4,New Hampshire,Kelly Ayotte,Republican,51.4,3,ok
+guber,4,New Mexico,Deb Haaland,Democratic,57.3,2,ok
+guber,4,New York,Kathy Hochul,Democratic,59.6,2,ok
+guber,4,Ohio,Amy Acton,Democratic,52.3,3,ok
+guber,4,Oklahoma,Mike Mazzei,Republican,51.9,5,ok
+guber,4,Oregon,Tina Kotek,Democratic,52.6,3,ok
+guber,4,Pennsylvania,Josh Shapiro,Democratic,60.4,3,ok
+guber,4,Rhode Island,Helena Foulkes,Democratic,57.7,5,ok
+guber,4,South Carolina,Alan Wilson,Republican,51.6,4,ok
+guber,4,South Dakota,Larry Rhoden,Republican,63.5,2,ok
+guber,4,Tennessee,Marsha Blackburn,Republican,45.5,15,ok
+guber,4,Texas,Gina Hinojosa,Democratic,52.8,3,ok
+guber,4,Vermont,Phil Scott,Republican,52.6,5,ok
+guber,4,Wisconsin,David Crowley,Democratic,54.0,2,ok
+guber,4,Wyoming,Eric Barlow,Republican,68.1,3,ok
+senete,13,Florida (Class 3),Ashley Moody,Republican,50.9,3,ok
+senete,13,Ohio (Class 3),Sherrod Brown,Democratic,50.0,4,ok
+senete,14,Alabama,Barry Moore,Republican,54.7,2,ok
+senete,14,Alaska,Mary Peltola,Democratic,50.1,4,ok
+senete,14,Arkansas,Tom Cotton,Republican,54.3,3,ok
+senete,14,Colorado,John Hickenlooper,Democratic,60.5,6,ok
+senete,14,Delaware,Chris Coons,Democratic,63.4,2,ok
+senete,14,Georgia,Jon Ossoff,Democratic,59.0,2,ok
+senete,14,Idaho,Jim Risch,Republican,56.5,4,ok
+senete,14,Illinois,Juliana Stratton,Democratic,62.0,3,ok
+senete,14,Iowa,Josh Turek,Democratic,50.6,3,ok
+senete,14,Kansas,Adam Hamilton,Democratic,51.2,3,ok
+senete,14,Kentucky,Andy Barr,Republican,55.0,3,ok
+senete,14,Louisiana,Julia Letlow,Republican,50.9,2,ok
+senete,14,Maine,Troy Jackson,Democratic,53.1,2,ok
+senete,14,Massachusetts,Ed Markey,Democratic,63.4,4,ok
+senete,14,Michigan,Abdul El-Sayed,Democratic,52.5,6,ok
+senete,14,Minnesota,Peggy Flanagan,DFL,53.7,4,ok
+senete,14,Mississippi,Scott Colom,Democratic,49.3,3,ok
+senete,14,Montana,Kurt Alme,Republican,48.2,4,ok
+senete,14,Nebraska,Pete Ricketts,Republican,50.0,5,ok
+senete,14,New Hampshire,Chris Pappas,Democratic,55.9,3,ok
+senete,14,New Jersey,Cory Booker,Democratic,62.5,4,ok
+senete,14,New Mexico,Ben Ray Luján,Democratic,63.3,2,ok
+senete,14,North Carolina,Roy Cooper,Democratic,58.8,4,ok
+senete,14,Oklahoma,Kevin Hern,Republican,57.2,5,ok
+senete,14,Oregon,Jeff Merkley,Democratic,58.0,4,ok
+senete,14,Rhode Island,Jack Reed,Democratic,66.8,3,ok
+senete,14,South Carolina,Annie Andrews,Democratic,51.1,4,ok
+senete,14,South Dakota,Mike Rounds,Republican,60.5,2,ok
+senete,14,Tennessee,Bill Hagerty,Republican,55.1,10,ok
+senete,14,Texas,James Talarico,Democratic,55.1,3,ok
+senete,14,Virginia,Mark Warner,Democratic,61.5,2,ok
+senete,14,West Virginia,Shelley Moore Capito,Republican,58.3,3,ok
+senete,14,Wyoming,Harriet Hageman,Republican,64.9,2,ok
