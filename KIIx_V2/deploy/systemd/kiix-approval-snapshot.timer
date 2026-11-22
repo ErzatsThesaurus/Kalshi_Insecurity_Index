@@ -1,0 +1,26 @@
+[Unit]
+Description=KIIX approval sleeve — snapshot every 15 minutes
+Documentation=file:///opt/kiix/deploy/systemd/README.md
+
+[Timer]
+Unit=kiix-approval-snapshot.service
+
+# :00 :15 :30 :45 of every hour. Interval-only calendars are timezone-independent,
+# so no TZ handling is needed here. A tighter cadence around the 17:00Z daily
+# settle would need a second timer with an explicit UTC OnCalendar.
+OnCalendar=*:0/15
+
+# Keep snapshot timestamps close to the quarter hour so the series is evenly
+# spaced, but offset slightly so we are not hitting the API in lockstep with the
+# weather sleeve's :00 run.
+AccuracySec=1s
+RandomizedDelaySec=20
+
+# Deliberately false. A catch-up run after downtime captures the book as it is
+# now, not as it was during the gap, so it recovers nothing — it only writes an
+# off-cadence file. Set to true if you would rather have a fresh point
+# immediately on boot than wait up to 15 minutes.
+Persistent=false
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,39 @@
+{
+ "summary": {
+  "PASS": 97,
+  "FAIL": 1,
+  "INFO": 4
+ },
+ "results": [
+  {
+   "level": "FAIL",
+   "test": "files_present",
+   "snapshot": "kalshi_midterms_20261103T221927Z",
+   "msg": "missing ['markets.csv']"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T211927Z -> 20261103T213927Z",
+   "msg": "6 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T213927Z -> 20261103T215927Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T223927Z -> 20261103T225927Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "cadence_summary",
+   "snapshot": null,
+   "msg": "6 snapshots, median gap 20.0 min, max 20.0 min"
+  }
+ ]
+}
