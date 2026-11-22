@@ -11,6 +11,7 @@ scores how well the prices predicted winners and how fast they collapsed once re
 | `test_snapshots.py` | Integrity checks across snapshot folders. |
 | `midterms/` | Analysis package: `data.py` (load snapshots), `metrics.py` (Brier, log loss, calibration, collapse time, log-odds volatility), `outcomes.py` (ground truth). |
 | `scripts/build_dataset.py` | Builds `data/derived/house_race_panel.csv` from the raw snapshots. |
+| `scripts/fetch_wikipedia_house.py` | Caches raw Wikipedia pages for the 2026 House elections (needs `--contact`; run where Wikipedia is reachable). |
 | `scripts/first_look.py` | First look at accuracy and collapse timing; writes `reports/`. |
 | `data/derived/` | Compact panel (one row per snapshot x House race market). Committed. |
 | `data/winners/` | Put `house_winners.csv` here (`district,winner_party`) to score against an external source instead of Kalshi's own results. |
@@ -31,6 +32,7 @@ python scripts/first_look.py
 
 - Snapshots `...T205944Z` and `...T210920Z` have truncated CSVs and are skipped (`midterms/data.py: FIRST_GOOD`).
 - A run builds in `<name>.partial` and is renamed on success, so unsuffixed folders are complete.
+- Data sources and terms checks: `docs/data_sources.md`.
 - Full field-by-field data dictionary: https://claude.ai/artifact/J7u9J15KGrD1BTne14Hq7r
 - Winner markets are `KXHOUSERACE` (one market per party per district, e.g. `Will Democratic win the House race for WY-AL?`).
 

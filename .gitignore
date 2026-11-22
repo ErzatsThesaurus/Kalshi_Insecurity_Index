@@ -7,3 +7,6 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+
+# raw cached web pages (re-fetchable)
+data/raw/
