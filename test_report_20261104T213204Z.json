@@ -1,0 +1,759 @@
+{
+ "summary": {
+  "PASS": 1404,
+  "WARN": 53,
+  "INFO": 72
+ },
+ "results": [
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T051232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T053232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T055232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T061232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T063232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T065232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T071232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T073232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T075232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T081232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T083232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T085232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T091232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T093232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T095232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T101232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T103232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T105232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T111232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T113232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "data_fresh",
+   "snapshot": "kalshi_midterms_20261104T115232Z",
+   "msg": "newest updated_time is 48 min before the snapshot"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T115232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T121232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T123232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T125232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T131232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T133232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T135232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T141232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T143232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T145232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T151232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T153232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T155232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T161232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T163232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T165232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T171232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T173232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T175232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T181232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T183232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T185232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T191232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "data_fresh",
+   "snapshot": "kalshi_midterms_20261104T193232Z",
+   "msg": "newest updated_time is 38 min before the snapshot"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T193232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T195232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T201232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T203232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T205232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "WARN",
+   "test": "data_fresh",
+   "snapshot": "kalshi_midterms_20261104T211232Z",
+   "msg": "newest updated_time is 34 min before the snapshot"
+  },
+  {
+   "level": "WARN",
+   "test": "control_sum",
+   "snapshot": "kalshi_midterms_20261104T211232Z",
+   "msg": "no active 2026 control event found"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T211927Z -> 20261103T213927Z",
+   "msg": "6 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T213927Z -> 20261103T215927Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T215927Z -> 20261103T223927Z",
+   "msg": "4 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T223927Z -> 20261103T225927Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T225927Z -> 20261103T231232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T231232Z -> 20261103T233232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T233232Z -> 20261103T235232Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261103T235232Z -> 20261104T001232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T001232Z -> 20261104T003232Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T003232Z -> 20261104T005232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T005232Z -> 20261104T011232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T011232Z -> 20261104T013232Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T013232Z -> 20261104T015232Z",
+   "msg": "31 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T015232Z -> 20261104T021232Z",
+   "msg": "12 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T021232Z -> 20261104T023232Z",
+   "msg": "4 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T023232Z -> 20261104T025232Z",
+   "msg": "10 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T025232Z -> 20261104T031232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T031232Z -> 20261104T033232Z",
+   "msg": "8 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T033232Z -> 20261104T035232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T035232Z -> 20261104T041232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T041232Z -> 20261104T043232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T043232Z -> 20261104T045232Z",
+   "msg": "1 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T045232Z -> 20261104T051232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T051232Z -> 20261104T053232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T053232Z -> 20261104T055232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T055232Z -> 20261104T061232Z",
+   "msg": "18 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T061232Z -> 20261104T063232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T063232Z -> 20261104T065232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T065232Z -> 20261104T071232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T071232Z -> 20261104T073232Z",
+   "msg": "2 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T073232Z -> 20261104T075232Z",
+   "msg": "5 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T075232Z -> 20261104T081232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T081232Z -> 20261104T083232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T083232Z -> 20261104T085232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T085232Z -> 20261104T091232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T091232Z -> 20261104T093232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T093232Z -> 20261104T095232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T095232Z -> 20261104T101232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T101232Z -> 20261104T103232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T103232Z -> 20261104T105232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T105232Z -> 20261104T111232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T111232Z -> 20261104T113232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T113232Z -> 20261104T115232Z",
+   "msg": "0 new, 3 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T115232Z -> 20261104T121232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T121232Z -> 20261104T123232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T123232Z -> 20261104T125232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T125232Z -> 20261104T131232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T131232Z -> 20261104T133232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T133232Z -> 20261104T135232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T135232Z -> 20261104T141232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T141232Z -> 20261104T143232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T143232Z -> 20261104T145232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T145232Z -> 20261104T151232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T151232Z -> 20261104T153232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T153232Z -> 20261104T155232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T155232Z -> 20261104T161232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T161232Z -> 20261104T163232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T163232Z -> 20261104T165232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T165232Z -> 20261104T171232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T171232Z -> 20261104T173232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T173232Z -> 20261104T175232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T175232Z -> 20261104T181232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T181232Z -> 20261104T183232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T183232Z -> 20261104T185232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T185232Z -> 20261104T191232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T191232Z -> 20261104T193232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T193232Z -> 20261104T195232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T195232Z -> 20261104T201232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T201232Z -> 20261104T203232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T203232Z -> 20261104T205232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "INFO",
+   "test": "new_tickers",
+   "snapshot": "20261104T205232Z -> 20261104T211232Z",
+   "msg": "0 new, 0 gone"
+  },
+  {
+   "level": "WARN",
+   "test": "cadence",
+   "snapshot": "kalshi_midterms_20261103T223927Z",
+   "msg": "40 min between 20261103T215927Z and 20261103T223927Z (expected ~20; missed run?)"
+  },
+  {
+   "level": "INFO",
+   "test": "cadence_summary",
+   "snapshot": null,
+   "msg": "72 snapshots, median gap 20.0 min, max 40.0 min"
+  }
+ ]
+}

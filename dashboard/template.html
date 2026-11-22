@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kalshi 2026 midterms: did the market call it?</title>
+<style>
+:root{--bg:#fff;--fg:#1d2733;--mut:#5d6b7a;--card:#f4f6f8;--line:#d5dbe1;--ok:#1b9e77;--bad:#d95f02;--nomkt:#9aa5b1;--norace:#e9edf1;--pend:#d9c36a;--t3:#9bd9c3;--simfill:#c9d3dd;--acc:#2f5d9e}
+@media (prefers-color-scheme:dark){:root{--bg:#14181d;--fg:#e6ebf0;--mut:#9aa7b4;--card:#1d242b;--line:#33404c;--ok:#36c79b;--bad:#ff8a3d;--nomkt:#6a7885;--norace:#232b33;--pend:#a08c3a;--t3:#2f8f73;--simfill:#3a4856;--acc:#7fa7e0}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+header{padding:18px 24px 6px}h1{margin:0;font-size:20px}header p{margin:4px 0 0;color:var(--mut);font-size:13px}
+nav{display:flex;gap:4px;padding:10px 24px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+nav button{background:none;border:0;border-bottom:3px solid transparent;color:var(--mut);padding:8px 14px;font:inherit;cursor:pointer}
+nav button[aria-selected=true]{color:var(--fg);border-color:var(--acc);font-weight:600}
+nav button:focus-visible{outline:2px solid var(--acc)}
+main{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px;padding:16px 24px 28px;max-width:1240px;margin:0 auto}
+@media (max-width:860px){main{grid-template-columns:1fr}}
+.panel{display:none}.panel.on{display:block}
+#stage>svg{width:100%;max-width:820px;height:auto;max-height:calc(100vh - 250px);display:block;margin:0 auto}#stage.tm>svg{max-height:calc(100vh - 430px)}#stage .legend{justify-content:center}
+.state{stroke:none;cursor:default;transition:opacity .1s}.state.hit{cursor:pointer}.state:hover,.state.sel{opacity:.8}.dist{stroke:var(--bg);stroke-width:.25}.dist:hover,.dist.sel{opacity:.75;stroke:var(--fg);stroke-width:1}
+.state.sel{stroke:var(--fg);stroke-width:2.5}.borders{fill:none;stroke:var(--bg);stroke-width:1;pointer-events:none}
+aside{background:var(--card);border-radius:10px;padding:14px 16px;align-self:start}
+aside h2{margin:0 0 6px;font-size:16px}aside dl{margin:8px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px}
+aside .resinfo{margin-top:14px;border-top:1px solid #e3e7ec;padding-top:8px}aside .resinfo h3{margin:6px 0;font-size:13px}aside .resinfo .note{font-size:12px;margin:6px 0}aside dt{color:var(--mut)}aside dd{margin:0}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--mut);margin-top:8px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.ph{border:2px dashed var(--line);border-radius:10px;padding:48px 24px;text-align:center;color:var(--mut)}
+.ph b{color:var(--fg);display:block;font-size:17px;margin-bottom:6px}
+.sr{position:absolute;left:-9999px}
+main.prof aside{display:none}
+.subnav{display:flex;gap:6px;margin:0 0 12px}.subnav button,.gobtn{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 14px;font:inherit;cursor:pointer}.subnav button[aria-pressed=true]{border-color:var(--acc);font-weight:600}
+.sumbar{display:flex;justify-content:center;align-items:center;gap:36px;flex-wrap:wrap;padding:8px 0 12px;text-align:center}.sumbar span{display:block;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}.sumbar b{font-size:22px;font-variant-numeric:tabular-nums}
+.sumbar .bet{font-size:12px;color:var(--mut);display:grid;gap:2px}.sumbar .bet input{width:90px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:5px 8px;font:inherit}.fin{font-weight:700;color:var(--acc)}
+.simgrid{display:grid;grid-template-columns:minmax(0,1fr) 670px;gap:18px;align-items:start}.simgrid>*,.sgrid>*{min-width:0}@media (max-width:1350px){.simgrid{grid-template-columns:minmax(0,1fr)}}
+.simgrid .left>svg#smap{width:100%;max-width:760px;max-height:calc(100vh - 360px);display:block;margin:0 auto}svg#smap .state{fill:var(--simfill)}svg#smap .state:hover{opacity:.8}svg#smap .state.sel{stroke:var(--fg);stroke-width:3}
+.flash{min-height:20px;text-align:center;font-size:13px;color:var(--acc);margin:4px 0}.ph3{margin:6px 0;font-size:14px}.eq{width:100%;max-width:700px;display:block;margin:10px auto 0}
+.sstate{background:var(--card);border-radius:10px;padding:12px 14px}.sstate h2{margin:0 0 2px}.sstate .sub{color:var(--mut);font-size:12px;margin:0 0 10px}
+.sgrid{display:grid;grid-template-columns:150px minmax(0,1fr);gap:14px;align-items:start}.sbig{display:grid;gap:12px}.rt{font-size:12px;font-weight:600;margin:0 0 4px}
+.htable{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);grid-auto-columns:150px;gap:8px;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin}
+.rc{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:7px;display:grid;gap:4px;align-content:start}
+.rhead{display:flex;justify-content:space-between;align-items:baseline;gap:6px}.rk{font-weight:600;font-size:13px;white-space:nowrap}.rp{font-size:12px;color:var(--mut);white-space:nowrap}.rp b{color:var(--fg)}.rh{font-size:11px;color:var(--acc);min-height:14px}
+.rc button{font:inherit;padding:4px 6px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer;display:grid;text-align:left;gap:0;min-width:0}.rc button:disabled{opacity:.4;cursor:default}
+.rc .nm{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rc .px{font-size:11px;color:var(--mut)}
+.rc .bd{border-left:4px solid #3b7dd8}.rc .br{border-left:4px solid #d64545}
+.ctlbar{position:sticky;bottom:0;display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;background:var(--bg);border-top:1px solid var(--line);padding:10px 0;margin-top:16px}
+.ctlbar button,.ctlbar select{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 14px;font:inherit;cursor:pointer}.ctlbar input[type=range]{flex:1;min-width:240px;max-width:560px}
+table.tr button{font:inherit;font-size:11px;padding:2px 8px;border:1px solid var(--line);border-radius:5px;background:var(--bg);color:var(--fg);cursor:pointer}
+.pctl{display:flex;gap:18px;flex-wrap:wrap;align-items:end;margin:0 0 14px}.pctl label{display:grid;gap:3px;font-size:12px;color:var(--mut)}
+.pctl input[type=number],.pctl select{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font:inherit;width:120px}
+.strat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}@media (max-width:900px){.strat{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:10px;padding:14px 16px}.card h3{margin:0 0 2px;font-size:16px}.card .sub{color:var(--mut);font-size:12px;margin:0 0 10px}
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px}.kpis div{background:var(--bg);border-radius:8px;padding:8px 10px}.kpis b{display:block;font-size:18px}.kpis span{font-size:11px;color:var(--mut)}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+table.tr{width:100%;border-collapse:collapse;font-size:12px}table.tr th{text-align:left;color:var(--mut);font-weight:500;border-bottom:1px solid var(--line);padding:3px 4px}table.tr td{padding:3px 4px;border-bottom:1px solid var(--line)}table.tr td:nth-child(n+3),table.tr th:nth-child(n+3){text-align:right}
+.note{color:var(--mut);font-size:12px;margin:10px 0 0}
+main.wide{grid-template-columns:1fr;max-width:1760px;padding:16px 14px 28px}main.timing{grid-template-columns:250px minmax(0,1fr) 260px;max-width:1440px}main.timing #left{order:-1}@media (max-width:1000px){main.timing{grid-template-columns:1fr}main.timing #left{order:0}}main.wide aside{order:2}
+.trio{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:10px;align-items:start}
+@media (max-width:900px){.trio{grid-template-columns:1fr}}
+.trio figure{margin:0}.trio h3{margin:0 0 4px;font-size:16px;text-align:center}.trio svg{width:100%;height:auto;display:block}
+.best{margin-bottom:14px}.best h2{margin:0 0 4px}.best ol{margin:8px 0 0;padding-left:20px;font-size:13px}.best li{margin:7px 0}.best small{color:var(--mut)}.best .gain{color:var(--ok);font-weight:600}
+.ctl{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin:10px auto 0;max-width:820px}
+.ctl button{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:5px 12px;font:inherit;cursor:pointer}
+.ctl button[aria-pressed=true]{border-color:var(--acc);font-weight:600}.ctl input[type=range]{flex:1;min-width:200px}
+.tl{font-variant-numeric:tabular-nums;min-width:170px;text-align:center;font-weight:600}
+.sum{text-align:center;color:var(--mut);font-size:13px;margin-top:6px}
+.curve{display:block;margin:8px auto 0;max-width:820px;width:100%;cursor:pointer}
+ol.rank{padding-left:20px;margin:6px 0 0;font-size:13px}ol.rank li{margin:2px 0;cursor:pointer}ol.rank li:hover{text-decoration:underline}
+</style></head><body>
+<header><h1>Kalshi 2026 midterms: did the market call it?</h1>
+<p>Start-of-night prices (4:19pm ET, Nov 3) against certified winners. Early build.</p></header>
+<nav role="tablist" aria-label="Views" id="tabs"></nav>
+<main>
+ <div id="stage"></div>
+ <aside id="side" aria-live="polite"><h2>Hover or tap a state</h2><p style="color:var(--mut);margin:0;font-size:13px">Details for the race show here.</p></aside>
+</main>
+<script>
+const P=__PAYLOAD__, NS="http://www.w3.org/2000/svg";
+const TABS=[["time","Timing"],["profit","Profit"],["results","Results"]];
+const side=document.getElementById("side"), stage=document.getElementById("stage"), tabs=document.getElementById("tabs");
+const pct=x=>x==null?"n/a":Math.round(x*100)+"¢";
+function cls(d){ if(!d) return "norace"; if(!d.scored) return "nomkt"; return d.fav_correct?"ok":"bad"; }
+function mapSvg(kind){
+  const svg=document.createElementNS(NS,"svg"); svg.setAttribute("viewBox",`${P.geo.x0} 0 ${P.geo.width} ${P.geo.height}`);
+  svg.setAttribute("role","img"); svg.setAttribute("aria-label","US map of "+kind+" races");
+  for(const s of P.geo.states){
+    const d=kind?P.data[kind][s.abbr]:null, c=kind?cls(d):"norace", p=document.createElementNS(NS,"path");
+    p.setAttribute("d",s.d); p.setAttribute("class","state"+(d?" hit":"")); p.style.fill=`var(--${c==="norace"?"norace":c==="nomkt"?"nomkt":c})`;
+    p.dataset.abbr=s.abbr; p.setAttribute("tabindex",d?0:-1); p.setAttribute("aria-label",s.name+(d?`: ${d.winner} won`:": no 2026 race"));
+    const show=()=>{ show_(s,d,kind); }; p.addEventListener("mouseenter",show); p.addEventListener("focus",show);
+    p.addEventListener("click",()=>{svg.querySelectorAll(".sel").forEach(e=>e.classList.remove("sel"));p.classList.add("sel");show();});
+    svg.appendChild(p);
+  }
+  const b=document.createElementNS(NS,"path"); b.setAttribute("d",P.geo.borders); b.setAttribute("class","borders"); svg.appendChild(b);
+  return svg;
+}
+function houseSvg(){
+  const svg=document.createElementNS(NS,"svg"); svg.setAttribute("viewBox",`${P.geo.x0} 0 ${P.geo.width} ${P.geo.height}`);
+  svg.setAttribute("role","img"); svg.setAttribute("aria-label","US map of House districts");
+  for(const x of P.districts){
+    const d=P.data.house[x.key], p=document.createElementNS(NS,"path");
+    const c=x.key==="DC-AL"?"norace":!d?"pend":cls(d);
+    p.setAttribute("d",x.d); p.setAttribute("class","dist"); p.style.fill=`var(--${c==="nomkt"?"nomkt":c})`; p.setAttribute("tabindex",0);
+    p.setAttribute("aria-label",x.key+(d?`: ${d.winner} won`:": no result in winners table"));
+    const show=()=>showHouse(x.key,d); p.addEventListener("mouseenter",show); p.addEventListener("focus",show);
+    p.addEventListener("click",()=>{svg.querySelectorAll(".sel").forEach(e=>e.classList.remove("sel"));p.classList.add("sel");show();});
+    svg.appendChild(p);
+  }
+  const b=document.createElementNS(NS,"path"); b.setAttribute("d",P.geo.borders); b.setAttribute("class","borders"); b.style.strokeWidth="1.2"; svg.appendChild(b);
+  return svg;
+}
+let curTab="";
+function resInfo(){
+  if(curTab!=="results") return "";
+  const rows=[["House","house"],["Senate","sen"],["Governor","gov"],["All","all"]].map(([l,k])=>{
+    const a=(k==="all"?["house","sen","gov"]:[k]).flatMap(kk=>Object.values(P.data[kk]).filter(d=>d.scored&&d.p_dem_start!=null));
+    const n=a.length, ok=a.filter(d=>d.fav_correct).length, br=a.reduce((t,d)=>t+Math.pow(d.p_dem_start-(d.dem_won?1:0),2),0)/(n||1);
+    return `<tr><td>${l}</td><td>${n}</td><td>${ok} (${(ok/(n||1)*100).toFixed(1)}%)</td><td>${n-ok}</td><td>${br.toFixed(4)}</td></tr>`;}).join("");
+  const wk=t=>`<a href="https://en.wikipedia.org/wiki/${t}" target="_blank" rel="noopener">${t.replace(/_/g," ").replace(/#.*/,"")}</a>`;
+  return `<div class="resinfo"><h3>Start-of-night accuracy</h3><table class="tr"><tr><th></th><th>Races</th><th>Favorite won</th><th>Upsets</th><th>Brier</th></tr>${rows}</table>`
+   +`<p class="note">Scored on the Kalshi price at the first usable snapshot, for races with a matched D/R market. A Brier score of 0 is perfect and 0.25 is a coin flip.</p>`
+   +`<p class="note">This simulator is constructed using real Kalshi data collected over a 24 hour period starting on 4pm election day, just before the first polls closed.</p>`
+   +`<h3>Sources</h3><p class="note">Winners: scraped from Wikipedia, ${wk("2026_United_States_House_of_Representatives_elections")}, ${wk("2026_United_States_Senate_elections")} and ${wk("2026_United_States_gubernatorial_elections")} (saved as <code>winners_reference.csv</code>). Prices: Kalshi public API.</p>`
+   +`<p class="note">Map: U.S. Census Bureau TIGER/Line 2026 legislative geodatabase (120th Congress districts), clipped to shorelines with the Census cartographic boundary file cb_2025_us_cd119_500k.</p></div>`;
+}
+function showHouse(key,d){
+  let h=`<h2>${key}</h2>`;
+  if(!d){ side.innerHTML=h+`<p style="color:var(--mut);margin:0">No result in the winners table (runoff or recount).</p>`+resInfo(); return; }
+  const s=P.geo.states.find(z=>z.abbr===key.slice(0,2)); show_({name:key+(s?" ("+s.name+")":"")},d);
+}
+function show_(s,d,kind){
+  let h=`<h2>${s.name}${kind?" · "+({sen:"Senate",gov:"Governor"}[kind]||""):""}</h2>`;
+  if(!d){ side.innerHTML=h+`<p style="color:var(--mut);margin:0">No 2026 race here.</p>`+resInfo(); return; }
+  h+=`<dl><dt>Winner</dt><dd>${d.winner} (${d.party})</dd>`;
+  if(d.scored){
+    h+=`<dt>Kalshi start P(Dem)</dt><dd>${pct(d.p_dem_start)}</dd><dt>Market favorite</dt><dd>${d.kalshi_fav==="D"?"Democrat":"Republican"}</dd>`
+     +`<dt>Called right?</dt><dd>${d.fav_correct?"Yes":"<b>No, upset</b>"}</dd><dt>Settled at 95¢+</dt><dd>${d.t_collapse_et||(d.status==="never_collapsed"?"never":"already at start")}</dd>`
+     +`<dt>Buy fav, per contract</dt><dd>${d.pnl_buy_fav>=0?"+":""}${(d.pnl_buy_fav*100).toFixed(0)}¢</dd>`;
+  } else h+=`<dt>Kalshi</dt><dd>no D/R market matched</dd>`;
+  side.innerHTML=h+"</dl>"+resInfo();
+}
+function legend(){return `<div class="legend"><span><i style="background:var(--ok)"></i>Favorite won</span><span><i style="background:var(--bad)"></i>Upset</span><span><i style="background:var(--nomkt)"></i>No Kalshi market matched</span><span><i style="background:var(--norace)"></i>No 2026 race</span></div>`;}
+const T=P.timing, TN=T.times.length;
+let tKind="house", tIdx=0, timer=null, tPaths={};
+const fmtET=iso=>new Date(iso).toLocaleString("en-US",{timeZone:"America/New_York",weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+function pwin(kind,key,i){const s=T.series[kind][key],d=P.data[kind][key]; if(!s||s[i]==null||!d) return null; return d.dem_won?s[i]:1-s[i];}
+function tcls(pw){return pw==null?"nomkt":pw>=.95?"ok":pw>=.75?"t3":pw>=.5?"pend":"bad";}
+function tKeys(){return Object.keys(T.series[tKind]);}
+function paintTiming(){
+  let settled=0,behind=0,n=0;
+  for(const [key,p] of Object.entries(tPaths)){
+    const pw=pwin(tKind,key,tIdx); const c=tcls(pw); p.style.fill=`var(--${c})`;
+    if(pw!=null){n++; if(pw>=.95) settled++; if(pw<.5) behind++;}
+  }
+  document.getElementById("tlabel").textContent=fmtET(T.times[tIdx])+" ET";
+  document.getElementById("tsum").textContent=`${settled} of ${n} races settled on the winner (95¢+) · ${behind} with the winner behind (<50¢)`;
+  document.getElementById("trange").value=tIdx; drawCurve(); paintBest();
+}
+function curveShare(i){let s=0,n=0;for(const k of tKeys()){const pw=pwin(tKind,k,i); if(pw!=null){n++; if(pw>=.95)s++;}} return n?s/n:0;}
+function drawCurve(){
+  const W=820,H=110,pad=44, el=document.getElementById("curve"); const shares=[...Array(TN).keys()].map(curveShare), lo=Math.floor(Math.min(...shares)*10)/10; const x=i=>pad+(W-2*pad)*i/(TN-1), y=v=>H-18-(H-34)*(v-lo)/(1-lo);
+  let d=""; for(let i=0;i<TN;i++) d+=(i?"L":"M")+x(i).toFixed(1)+" "+y(shares[i]).toFixed(1);
+  el.innerHTML=`<line x1="${pad}" x2="${W-pad}" y1="${y(lo)}" y2="${y(lo)}" stroke="var(--line)"/><line x1="${pad}" x2="${W-pad}" y1="${y(1)}" y2="${y(1)}" stroke="var(--line)" stroke-dasharray="3 3"/>`
+   +`<text x="${pad-4}" y="${y(1)+4}" text-anchor="end" font-size="6" fill="var(--mut)">100%</text><text x="${pad-4}" y="${y(lo)+4}" text-anchor="end" font-size="6" fill="var(--mut)">${Math.round(lo*100)}%</text>`
+   +`<path d="${d}" fill="none" stroke="var(--acc)" stroke-width="2"/><line x1="${x(tIdx)}" x2="${x(tIdx)}" y1="6" y2="${y(lo)}" stroke="var(--fg)" stroke-width="1.5"/>`
+   +`<text x="${W/2}" y="${H-2}" text-anchor="middle" font-size="11" fill="var(--mut)">Share of races settled on the winner, by snapshot (click to jump)</text>`;
+  el.dataset.pad=pad;
+}
+function spark(kind,key){
+  const W=250,H=70; let d="",mark=""; const s=T.series[kind][key]; if(!s) return "";
+  for(let i=0;i<TN;i++){const pw=pwin(kind,key,i); if(pw==null) continue; d+=(d?"L":"M")+(4+(W-8)*i/(TN-1)).toFixed(1)+" "+(H-4-(H-8)*pw).toFixed(1);}
+  const cx=4+(W-8)*tIdx/(TN-1);
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;margin-top:8px"><line x1="4" x2="${W-4}" y1="${H-4-(H-8)*.95}" y2="${H-4-(H-8)*.95}" stroke="var(--line)" stroke-dasharray="3 3"/><line x1="4" x2="${W-4}" y1="${H-4-(H-8)*.5}" y2="${H-4-(H-8)*.5}" stroke="var(--line)"/><path d="${d}" fill="none" stroke="var(--acc)" stroke-width="1.8"/><line x1="${cx}" x2="${cx}" y1="2" y2="${H-2}" stroke="var(--fg)"/></svg><div style="font-size:11px;color:var(--mut)">Winner's price over time (dashed = 95¢, solid = 50¢)</div>`;
+}
+const BET=5;
+function bestBuys(){
+  const rows=[];
+  for(const [key,d] of Object.entries(P.data[tKind])){
+    const s=T.series[tKind][key]; if(!s||s[tIdx]==null) continue;
+    const a=(d.dem_won?T.askD:T.askR)[tKind][key][tIdx]; const ask=a!=null?a:(pwin(tKind,key,tIdx)+0.01);
+    if(!(ask>=0.03&&ask<0.99)) continue;           // skip no-offer / sub-3-cent quotes: not realistically fillable
+    const n=Math.floor(BET/ask); if(n<1) continue;
+    rows.push({key,d,ask,n,cost:n*ask,payout:n,gain:n-n*ask});
+  }
+  return rows.sort((a,b)=>b.gain-a.gain).slice(0,5);
+}
+function paintBest(){
+  const el=document.getElementById("best"); if(!el) return;
+  const rows=bestBuys(), name={house:"House",sen:"Senate",gov:"Governor"}[tKind];
+  el.innerHTML=`<h2>Best buys now</h2><small>${name}, hindsight: $${BET} on the eventual winner at the ask, paid $1 per contract at close. Ignores fees and order depth.</small><ol>`
+   +rows.map(r=>`<li><b>${r.key}</b> ${r.d.winner}<br><small>${Math.round(r.ask*100)}¢ × ${r.n} contracts = $${r.cost.toFixed(2)}</small><br>pays $${r.payout.toFixed(2)} <span class="gain">(+$${r.gain.toFixed(2)})</span></li>`).join("")+`</ol>`;
+}
+function timingHover(key,label){
+  const d=P.data[tKind][key]; if(!d){return;}
+  const pw=pwin(tKind,key,tIdx);
+  side.innerHTML=`<h2>${label}</h2><dl><dt>Winner</dt><dd>${d.winner} (${d.party})</dd><dt>Winner's price now</dt><dd>${pw==null?"n/a":Math.round(pw*100)+"¢"}</dd><dt>Settled at 95¢+</dt><dd>${d.t_collapse_et||(d.status==="never_collapsed"?"never":"already at start")}</dd><dt>Lowest winner price</dt><dd>${d.min_p_win==null?"n/a":Math.round(d.min_p_win*100)+"¢"}</dd></dl>`+spark(tKind,key);
+}
+function timingSide(){
+  const rows=Object.entries(P.data[tKind]).filter(([k,d])=>d.scored&&d.volatility!=null).sort((a,b)=>b[1].volatility-a[1].volatility).slice(0,8);
+  document.getElementById("vol").innerHTML=`<h2>Most volatile</h2><p style="color:var(--mut);margin:0;font-size:13px">Total swing in log-odds until the price settled. Hover a race on the map for its price history; click an entry here to see it on the right.</p><ol class="rank">`+rows.map(([k,d])=>`<li data-k="${k}">${k} ${d.winner}</li>`).join("")+`</ol>`;
+  document.querySelectorAll("#vol li").forEach(li=>li.onclick=()=>timingHover(li.dataset.k,li.dataset.k));
+}
+function timingMap(){
+  tPaths={}; const svg=document.createElementNS(NS,"svg"); svg.setAttribute("viewBox",`${P.geo.x0} 0 ${P.geo.width} ${P.geo.height}`); svg.setAttribute("role","img");
+  const items=tKind==="house"?P.districts.map(x=>({key:x.key,d:x.d,label:x.key})):P.geo.states.filter(s=>P.data[tKind][s.abbr]).map(s=>({key:s.abbr,d:s.d,label:s.name}));
+  if(tKind!=="house"){ for(const s of P.geo.states){ if(P.data[tKind][s.abbr]) continue; const q=document.createElementNS(NS,"path"); q.setAttribute("d",s.d); q.setAttribute("class","state"); q.style.fill="var(--norace)"; svg.appendChild(q);} }
+  for(const it of items){
+    const p=document.createElementNS(NS,"path"); p.setAttribute("d",it.d); p.setAttribute("class",tKind==="house"?"dist":"state hit"); p.setAttribute("tabindex",0); tPaths[it.key]=p;
+    const h=()=>timingHover(it.key,it.label); p.addEventListener("mouseenter",h); p.addEventListener("focus",h); p.addEventListener("click",h); svg.appendChild(p);
+  }
+  const b=document.createElementNS(NS,"path"); b.setAttribute("d",P.geo.borders); b.setAttribute("class","borders"); svg.appendChild(b); return svg;
+}
+function timingView(){
+  document.getElementById("left")?.remove(); clearInterval(timer); timer=null; stage.replaceChildren(); stage.classList.add("tm"); const main=document.querySelector("main"); main.classList.add("timing");
+  const left=document.createElement("aside"); left.id="left"; left.innerHTML=`<div id="best" class="best"></div><div id="vol"></div>`; main.append(left);
+  side.innerHTML=`<h2>Hover a race</h2><p style="color:var(--mut);margin:0;font-size:13px">Winner, price history and when it settled show here.</p>`;
+  const ctl=document.createElement("div"); ctl.className="ctl";
+  ctl.innerHTML=`<span>${[["house","House"],["sen","Senate"],["gov","Governor"]].map(([k,l])=>`<button data-k="${k}" aria-pressed="${k===tKind}">${l}</button>`).join(" ")}</span><button id="tplay">Play</button><input id="trange" type="range" min="0" max="${TN-1}" value="${tIdx}" aria-label="Time"><span class="tl" id="tlabel"></span>`;
+  const cur=document.createElementNS(NS,"svg"); cur.id="curve"; cur.setAttribute("class","curve"); cur.setAttribute("viewBox","0 0 820 110");
+  cur.addEventListener("click",e=>{const r=cur.getBoundingClientRect(),f=(e.clientX-r.left)/r.width*820; tIdx=Math.max(0,Math.min(TN-1,Math.round((f-44)/(820-88)*(TN-1)))); paintTiming();});
+  stage.append(timingMap(),ctl,Object.assign(document.createElement("div"),{id:"tsum",className:"sum"}),cur);
+  stage.insertAdjacentHTML("beforeend",`<div class="legend"><span><i style="background:var(--ok)"></i>Winner 95¢+ (settled)</span><span><i style="background:var(--t3)"></i>75–95¢</span><span><i style="background:var(--pend)"></i>50–75¢</span><span><i style="background:var(--bad)"></i>Winner behind (&lt;50¢)</span><span><i style="background:var(--nomkt)"></i>No market</span></div>`);
+  ctl.querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>{  // swap only the map; keep layout, slider, scroll and playback as they are
+    tKind=b.dataset.k; ctl.querySelectorAll("button[data-k]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.k===tKind));
+    stage.replaceChild(timingMap(),stage.firstElementChild);
+    side.innerHTML=`<h2>Hover a race</h2><p style="color:var(--mut);margin:0;font-size:13px">Winner, price history and when it settled show here.</p>`;
+    paintTiming(); timingSide();
+  });
+  document.getElementById("trange").oninput=e=>{tIdx=+e.target.value; paintTiming();};
+  document.getElementById("tplay").onclick=e=>{ if(timer){clearInterval(timer);timer=null;e.target.textContent="Play";return;} if(tIdx>=TN-1) tIdx=0; e.target.textContent="Pause";
+    timer=setInterval(()=>{ if(tIdx>=TN-1){clearInterval(timer);timer=null;document.getElementById("tplay").textContent="Play";return;} tIdx++; paintTiming(); },350); };
+  paintTiming(); timingSide();
+}
+function resultsView(){
+  const mk=(title,el)=>{const f=document.createElement("figure"); f.innerHTML=`<h3>${title}</h3>`; f.append(el); return f;};
+  const trio=document.createElement("div"); trio.className="trio";
+  trio.append(mk("House (435 districts)",houseSvg()),mk("Senate",mapSvg("sen")),mk("Governor",mapSvg("gov")));
+  stage.append(trio); stage.insertAdjacentHTML("beforeend",legend()+`<div class="legend"><span><i style="background:var(--pend)"></i>No winner in table (runoff or recount)</span></div>`);
+}
+let pIdx=0, pBudget=1000, pCap=25, pKind="all", pTimer=null, pCache=null;
+const money=x=>(x<0?"-":"")+"$"+Math.abs(x).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+/* ---------- trading strategies that buy and sell through the night ---------- */
+const TRADE_END=()=>TN-2;  // last step we trade on; the final snapshot is settlement, so everything is closed before it
+function raceSides(){
+  const out=[];
+  for(const kind of (pKind==="all"?["house","sen","gov"]:[pKind])) for(const key of Object.keys(P.data[kind])){
+    const s=T.series[kind][key]; if(!s) continue;
+    for(const side of ["D","R"]){
+      const a=[],b=[],m=[];
+      for(let i=0;i<TN;i++){a.push(askSide(kind,key,side,i)); b.push(bidSide(kind,key,side,i)); m.push(midSide(kind,key,side,i));}
+      out.push({kind,key,side,a,b,m,name:nameOf?nameOf(kind,key,side):""});
+    }
+  }
+  return out;
+}
+function tradeRow(r,t0,t1,n,ask,bid){
+  return {label:r.key,pick:r.name||(r.side==="D"?"Dem":"Rep"),t0,t1,ask,bid,n,cost:n*ask,payout:n*bid,r};
+}
+// total profit at step t: cash plus open positions marked at the mid, minus the starting budget
+function equityAt(cash,open,t){let v=0; for(const o of open){const m=o.r.m[t]; v+=o.n*(m==null?o.ask:m);} return cash+v-pBudget;}
+function stratForesight(){
+  const H=TRADE_END(), trips=[];
+  for(const r of raceSides()){
+    const f=new Array(H+1).fill(0), prev=new Array(H+1).fill(-1);  // f[j]: best gain per contract if flat at step j
+    for(let j=1;j<=H;j++){
+      f[j]=f[j-1]; prev[j]=-1;
+      if(r.b[j]==null) continue;
+      for(let i=0;i<j;i++){ if(r.a[i]==null||r.a[i]>=.99||r.a[i]<.015) continue; const c=f[i]+r.b[j]-r.a[i]; if(c>f[j]+1e-9){f[j]=c; prev[j]=i;} }
+    }
+    let j=H; while(j>0){ if(prev[j]===-1){j--;continue;} const i=prev[j]; trips.push({r,i,j,ask:r.a[i],bid:r.b[j]}); j=i; }
+  }
+  let cash=pBudget, open=[]; const done=[], eq=[];
+  for(let t=0;t<TN;t++){
+    if(t<=H){
+      for(const o of open) if(o.j===t){ cash+=o.n*o.bid; done.push(tradeRow(o.r,o.i,o.j,o.n,o.ask,o.bid)); }
+      open=open.filter(o=>o.j!==t);
+      const buys=trips.filter(x=>x.i===t).sort((a,b)=>(b.bid-b.ask)/b.ask-(a.bid-a.ask)/a.ask);
+      for(const x of buys){ const n=Math.floor(Math.min(pCap,cash)/x.ask+1e-9); if(n<1) continue; cash-=n*x.ask; open.push({...x,n}); }
+    }
+    eq.push(equityAt(cash,open,Math.min(t,H)));
+  }
+  return {tr:done,eq};
+}
+/* ---------- buy-and-hold baskets (held to settlement) ---------- */
+function racePairs(){
+  const m=new Map();
+  for(const r of raceSides()){const k=r.kind+"|"+r.key; if(!m.has(k)) m.set(k,{}); m.get(k)[r.side]=r;}
+  const out=[];
+  for(const x of m.values()){
+    if(!x.D||!x.R||P.data[x.D.kind][x.D.key].dem_won==null) continue;
+    const e0=x.D.a.findIndex((v,i)=>v!=null&&x.R.a[i]!=null&&x.D.m[i]!=null); if(e0<0) continue;
+    out.push({D:x.D,R:x.R,e0,pD:x.D.m[e0]});
+  }
+  return out;
+}
+const sideWins=r=>(r.side==="D")===P.data[r.kind][r.key].dem_won;
+// picks: [{r,t,ask,n}] bought at step t and held to the last snapshot, which pays $1 or $0
+function holdResult(picks){
+  const tr=picks.filter(x=>x.n>=1).map(x=>tradeRow(x.r,x.t,TN-1,x.n,x.ask,sideWins(x.r)?1:0)), eq=[];
+  for(let t=0;t<TN;t++){
+    let cash=pBudget, v=0;
+    for(const x of tr){ if(x.t0>t) continue; cash-=x.cost; if(t>=TN-1) v+=x.payout; else {const m=x.r.m[t]; v+=x.n*(m==null?x.ask:m);} }
+    eq.push(cash+v-pBudget);
+  }
+  return {tr,eq};
+}
+const perRace=n=>Math.min(pCap,pBudget/Math.max(1,n));
+function stratBasket(side){   // buy one side in every contested race (start price 20-80¢) at the first snapshot
+  const c=racePairs().filter(x=>x.pD>=.2&&x.pD<=.8), per=perRace(c.length);
+  return holdResult(c.map(x=>{const r=x[side],ask=r.a[x.e0]; return {r,t:x.e0,ask,n:Math.floor(per/ask+1e-9)};}));
+}
+function stratLongshot(){   // buy every side priced 2-10¢ at the first snapshot
+  const c=[]; for(const x of racePairs()) for(const r of [x.D,x.R]){const a=r.a[x.e0]; if(a>=.02&&a<=.10) c.push({r,t:x.e0,ask:a});}
+  const per=perRace(c.length); return holdResult(c.map(x=>({...x,n:Math.floor(per/x.ask+1e-9)})));
+}
+function stratGrinder(){    // buy a side the first time its ask is 90-97¢ (one side per race), spending up to the cap while cash lasts
+  const rs=racePairs(), bought=new Set(), picks=[]; let cash=pBudget;
+  for(let t=0;t<TN-1;t++){
+    const c=[]; for(const x of rs){ const k=x.D.key+x.D.kind; if(bought.has(k)) continue; for(const r of [x.D,x.R]){const a=r.a[t]; if(a!=null&&a>=.90&&a<=.97) c.push({r,k,a});} }
+    c.sort((p,q)=>q.a-p.a);
+    for(const x of c){ if(bought.has(x.k)) continue; const n=Math.floor(Math.min(pCap,cash)/x.a+1e-9); if(n<1) continue; cash-=n*x.a; bought.add(x.k); picks.push({r:x.r,t,ask:x.a,n}); }
+  }
+  return holdResult(picks);
+}
+function stratHedge(){      // hold both sides of every race at the first snapshot, 70% of the money on the favorite and 30% on the other side
+  const rs=racePairs(), per=perRace(rs.length), picks=[];
+  for(const x of rs){ const fav=x.pD>=.5?x.D:x.R, und=fav===x.D?x.R:x.D;
+    picks.push({r:fav,t:x.e0,ask:fav.a[x.e0],n:Math.floor(.7*per/fav.a[x.e0]+1e-9)},{r:und,t:x.e0,ask:und.a[x.e0],n:Math.floor(.3*per/und.a[x.e0]+1e-9)}); }
+  return holdResult(picks);
+}
+function eqChart(eq,t,color){
+  const W=360,Hh=130,pl=44,pr=8,pt=8,pb=16, lo=Math.min(0,...eq), hi=Math.max(0,...eq), span=(hi-lo)||1;
+  const X=i=>pl+(W-pl-pr)*i/(TN-1), Y=v=>pt+(Hh-pt-pb)*(1-(v-lo)/span);
+  const pts=eq.map((v,i)=>X(i).toFixed(1)+","+Y(v).toFixed(1)).join(" ");
+  const part=eq.slice(0,t+1).map((v,i)=>X(i).toFixed(1)+","+Y(v).toFixed(1)).join(" ");
+  const k=v=>(v<0?"-":"")+"$"+Math.abs(Math.round(v)).toLocaleString("en-US");
+  return `<svg viewBox="0 0 ${W} ${Hh}" style="width:100%;height:auto" role="img" aria-label="Profit over the night"><line x1="${pl}" x2="${W-pr}" y1="${Y(0)}" y2="${Y(0)}" stroke="#c9d0d8" stroke-dasharray="3 3"/>`
+   +`<polyline points="${pts}" fill="none" stroke="#c9d0d8" stroke-width="1.5"/><polyline points="${part}" fill="none" stroke="${color}" stroke-width="2"/>`
+   +`<line x1="${X(t)}" x2="${X(t)}" y1="${pt}" y2="${Hh-pb}" stroke="#7a8794" stroke-width="1"/><circle cx="${X(t)}" cy="${Y(eq[t])}" r="3.5" fill="${color}"/>`
+   +`<text x="${pl-4}" y="${Y(hi)+4}" font-size="6" text-anchor="end" fill="#667">${k(hi)}</text><text x="${pl-4}" y="${Y(lo)+3}" font-size="6" text-anchor="end" fill="#667">${k(lo)}</text>`
+   +`<text x="${pl}" y="${Hh-3}" font-size="6" fill="#667">${fmtET(T.times[0]).replace(/^\w+, /,"")}</text><text x="${W-pr}" y="${Hh-3}" font-size="6" text-anchor="end" fill="#667">${fmtET(T.times[TN-1]).replace(/^\w+, /,"")}</text></svg>`;
+}
+function traderCard(title,sub,res,color){
+  const t=pIdx, pl=res.eq[t], closed=res.tr.filter(x=>x.t1<=t), openN=res.tr.filter(x=>x.t0<=t&&x.t1>t).length, wins=closed.filter(x=>x.payout>x.cost).length;
+  const rows=[...closed].sort((a,b)=>b.t1-a.t1||b.n-a.n).slice(0,8).map(x=>{const g=x.payout-x.cost;return `<tr><td>${x.label}</td><td>${x.pick}</td><td>${Math.round(x.ask*100)}→${Math.round(x.bid*100)}¢</td><td>${x.n}</td><td class="${g>=0?"pos":"neg"}">${g>=0?"+":""}${money(g)}</td></tr>`;}).join("");
+  return `<div class="card"><h3>${title}</h3><p class="sub">${sub}</p><div class="kpis"><div><b class="${pl>=0?"pos":"neg"}">${pl>=0?"+":""}${money(pl)}</b><span>profit so far</span></div><div><b>${money(pBudget+pl)}</b><span>account value</span></div><div><b>${closed.length}</b><span>trades closed (${wins} won)</span></div><div><b>${openN}</b><span>positions open</span></div></div>`
+   +eqChart(res.eq,t,color)+`<b style="font-size:12px">Latest closed trades</b><table class="tr"><tr><th>Race</th><th>Pick</th><th>Buy→Sell</th><th>Qty</th><th>P/L</th></tr>${rows||'<tr><td colspan="5" style="color:var(--mut)">None yet</td></tr>'}</table></div>`;
+}
+function paintProfit(recompute){
+  const el=document.getElementById("pout"); if(!el) return;
+  document.getElementById("plabel").textContent=fmtET(T.times[pIdx])+" ET";
+  const key=pKind+"|"+pBudget+"|"+pCap;
+  if(!pCache||pCache.key!==key) pCache={key,fore:stratForesight(),dbear:stratBasket("R"),rbear:stratBasket("D"),long:stratLongshot(),grind:stratGrinder(),hedge:stratHedge()};
+  const C=[["Perfect-foresight trader","Knows every price in advance. Buys at the ask and sells at the bid for the best gain, repeating round trips in each race, sharing one budget and closing everything before settlement. A ceiling, not something you could have done.","fore","#1f7a4d"],
+   ["Favorite grinder","Buys a side the first time its ask reaches 90-97¢ and holds to settlement. Tests whether the last few cents were worth the risk.","grind","#5b4a9e"],
+   ["Rep bear (contested races)","Buys the Democratic side in every race that started at 20-80¢ for the Democrat, at the first snapshot, and holds to settlement.","rbear","#2b5fa8"],
+   ["Dem bear (contested races)","Buys the Republican side in every race that started at 20-80¢ for the Democrat, at the first snapshot, and holds to settlement.","dbear","#b3402a"],
+   ["Longshot buyer","Buys every side priced 2-10¢ at the first snapshot and holds to settlement. Tests whether cheap contracts were underpriced.","long","#8a5a00"],
+   ["Hedged pair","Holds both sides of every race from the first snapshot, 70% of the money on the favorite and 30% on the other side, to settlement.","hedge","#4a6572"]];
+  el.innerHTML=C.map(([t,d,k,col])=>traderCard(t,d,pCache[k],col)).join("");
+}
+function profitView(){
+  stage.replaceChildren(); clearInterval(sTimer); sTimer=null; clearInterval(pTimer); pTimer=null;
+  const nav=document.createElement("div"); nav.className="subnav"; nav.innerHTML=[["sim","Simulator"],["strat","Strategies"]].map(([k,l])=>`<button data-k="${k}" aria-pressed="${k===pSub}">${l}</button>`).join("");
+  const root=document.createElement("div"); stage.append(nav,root);
+  nav.querySelectorAll("button").forEach(b=>b.onclick=()=>{pSub=b.dataset.k; profitView();});
+  if(pSub==="sim") simView(root); else stratView(root);
+}
+function stratView(root){
+  root.innerHTML=`<div class="pctl"><label>Budget ($)<input id="pb" type="number" min="1" step="50" value="${pBudget}"></label><label>Max per race ($)<input id="pc" type="number" min="1" step="5" value="${pCap}"></label>`
+   +`<label>Races<select id="pk">${[["all","All"],["house","House"],["sen","Senate"],["gov","Governor"]].map(([k,l])=>`<option value="${k}" ${k===pKind?"selected":""}>${l}</option>`).join("")}</select></label>`
+   +`<label>Time <span id="plabel" style="color:var(--fg);font-weight:600"></span><span style="display:flex;gap:8px;align-items:center"><button id="pplay" class="gobtn">Play</button><input id="pt" type="range" min="0" max="${TN-1}" value="${pIdx}" style="width:300px"></span></label></div><div class="strat" id="pout"></div>`
+   +`<p class="note">Buys fill at the quoted ask and sells at the bid, whole contracts only, with open positions marked at the mid. Held positions pay $1 or $0 at the last snapshot. Each race gets the lesser of the max per race and the budget split evenly. Fees and order depth are ignored, so the per-race cap stands in for depth. Move or play the time slider to watch each strategy's profit build through the night.</p>`;
+  document.getElementById("pb").oninput=e=>{pBudget=Math.max(1,+e.target.value||1);paintProfit();};
+  document.getElementById("pc").oninput=e=>{pCap=Math.max(1,+e.target.value||1);paintProfit();};
+  document.getElementById("pk").onchange=e=>{pKind=e.target.value;paintProfit();};
+  document.getElementById("pt").oninput=e=>{pIdx=+e.target.value;paintProfit();};
+  document.getElementById("pplay").onclick=e=>{ if(pTimer){clearInterval(pTimer);pTimer=null;e.target.textContent="Play";return;} if(pIdx>=TN-1){pIdx=0;document.getElementById("pt").value=0;} e.target.textContent="Pause";
+    pTimer=setInterval(()=>{ if(pIdx>=TN-1){clearInterval(pTimer);pTimer=null;document.getElementById("pplay").textContent="Play";return;} pIdx++; document.getElementById("pt").value=pIdx; paintProfit(); },300); };
+  paintProfit();
+}
+/* ---------- custom strategy simulator ---------- */
+let pSub="sim";
+let sIdx=0,sCash=1000,sBet=25,sStart=1000,sPos={},sEq=[0],sState=null,sTimer=null,sSpeed=400,sCards=[];
+const sKey=(k,key,side)=>k+"|"+key+"|"+side;
+const rLabel=(k,key)=>k==="house"?key:key+(k==="sen"?" Sen":" Gov");
+const settledAt=m=>m!=null&&(m>=.995||m<=.005);
+function sReset(){clearInterval(sTimer);sTimer=null;sIdx=0;sCash=sStart;sPos={};sEq=[0];}
+function midSide(k,key,side,i){const s=T.series[k][key]; if(!s||s[i]==null) return null; return side==="D"?s[i]:1-s[i];}
+function askSide(k,key,side,i){const a=(side==="D"?T.askD:T.askR)[k][key]; const v=a?a[i]:null; if(v!=null) return v; const m=midSide(k,key,side,i); return m==null?null:Math.min(1,m+.01);}
+function bidSide(k,key,side,i){const a=(side==="D"?T.bidD:T.bidR)[k][key]; const v=a?a[i]:null; if(v!=null&&v>0) return v; const m=midSide(k,key,side,i); return m==null?null:Math.max(0,m-.01);}
+function posValue(p,i){ if(i>=TN-1){const d=P.data[p.kind][p.key]; return (p.side==="D")===d.dem_won?p.n:0;} const m=midSide(p.kind,p.key,p.side,i); return p.n*(m==null?p.cost/p.n:m); }
+function totals(i){let v=0,c=0; for(const p of Object.values(sPos)){v+=posValue(p,i);c+=p.cost;} return {cash:sCash,openPL:v-c,total:sCash+v-sStart};}
+function flash(msg){const e=document.getElementById("sflash"); if(!e) return; e.textContent=msg; clearTimeout(flash.t); flash.t=setTimeout(()=>e.textContent="",2500);}
+function sBuy(kind,key,side){
+  if(sIdx>=TN-1){flash("Market closed: press Reset to start over."); return;}
+  const ask=askSide(kind,key,side,sIdx); if(ask==null||ask<=0||ask>=.99){flash("No fillable price on that side right now."); return;}
+  const n=Math.floor(sBet/ask+1e-9), cost=n*ask;
+  if(n<1){flash("Bet size is too small for one contract."); return;}
+  if(cost>sCash+1e-9){flash("Not enough cash."); return;}
+  sCash-=cost; const k=sKey(kind,key,side); const p=sPos[k]||(sPos[k]={kind,key,side,n:0,cost:0}); p.n+=n; p.cost+=cost;
+  flash(`Bought ${n} ${side==="D"?"Dem":"Rep"} ${rLabel(kind,key)} at ${Math.round(ask*100)}¢ for ${money(cost)}`);
+  sEq[sIdx]=totals(sIdx).total; sPaint();
+}
+function sSell(k){
+  const p=sPos[k]; if(!p||sIdx>=TN-1) return; const m=midSide(p.kind,p.key,p.side,sIdx);
+  if(settledAt(m)){flash("Already settled: pays out at the close."); return;}
+  const bid=bidSide(p.kind,p.key,p.side,sIdx); if(!(bid>0)){flash("No bid right now."); return;}
+  sCash+=p.n*bid; flash(`Sold ${p.n} ${rLabel(p.kind,p.key)} at ${Math.round(bid*100)}¢`); delete sPos[k]; sEq[sIdx]=totals(sIdx).total; sPaint();
+}
+function sAdvance(to){ for(let i=sIdx+1;i<=to;i++) sEq[i]=totals(i).total; sIdx=to; if(sIdx>=TN-1){clearInterval(sTimer);sTimer=null;} sPaint(); }
+function sMoneyCls(x){return x>0.004?"pos":x<-0.004?"neg":"";}
+function sPaintSummary(){
+  const t=totals(sIdx), fin=sIdx>=TN-1;
+  document.getElementById("scash").textContent=money(sCash);
+  const o=document.getElementById("sopen"); o.textContent=(t.openPL>=0?"+":"")+money(t.openPL); o.className=sMoneyCls(t.openPL);
+  const tt=document.getElementById("stotal"); tt.textContent=(t.total>=0?"+":"")+money(t.total); tt.className=sMoneyCls(t.total);
+  document.getElementById("sfinal").textContent=fin?"FINAL: markets settled":"";
+  document.getElementById("stime").textContent=fmtET(T.times[sIdx])+" ET";
+  document.getElementById("srange").value=sIdx;
+  document.getElementById("splay").textContent=sTimer?"Pause":"Play";
+}
+function sPaintMap(){
+  const byState={}; for(const p of Object.values(sPos)){const st=p.key.slice(0,2); byState[st]=(byState[st]||0)+posValue(p,sIdx)-p.cost;}
+  document.querySelectorAll("#smap path[data-st]").forEach(el=>{
+    const st=el.dataset.st, v=byState[st]; el.style.fill=v==null?"var(--simfill)":v>0.004?"var(--ok)":v<-0.004?"var(--bad)":"var(--acc)";
+    el.classList.toggle("sel",st===sState);
+  });
+}
+function sPaintCards(){
+  const fin=sIdx>=TN-1;
+  for(const c of sCards){
+    const m=c.tradable?midSide(c.kind,c.key,"D",sIdx):null;
+    if(m==null){c.price.textContent=c.tradable?"no quote":"no market"; for(const b of [c.bD,c.bR]){b.disabled=true; b.querySelector(".px").textContent="Buy";}}
+    else{
+      c.price.innerHTML=`Dem <b>${Math.round(m*100)}¢</b>`;
+      for(const [b,side] of [[c.bD,"D"],[c.bR,"R"]]){ const a=askSide(c.kind,c.key,side,sIdx); const ok=!fin&&a!=null&&a>0&&a<.99; b.disabled=!ok; b.querySelector(".px").textContent=a==null?"Buy":`Buy ${Math.round(a*100)}¢`; }
+    }
+    const held=["D","R"].map(s=>sPos[sKey(c.kind,c.key,s)]&&`${sPos[sKey(c.kind,c.key,s)].n} ${s==="D"?"Dem":"Rep"}`).filter(Boolean);
+    c.hold.textContent=held.length?"Holding "+held.join(", "):"";
+  }
+}
+const nameOf=(k,key,side)=>(P.names[k][key]&&P.names[k][key][side])||(side==="D"?"Democrat":"Republican");
+function sPaintPositions(){
+  const el=document.getElementById("spos"), fin=sIdx>=TN-1, rows=Object.entries(sPos);
+  if(!rows.length){el.innerHTML=`<p class="note">No positions yet. Click a state, then Buy on any race.</p>`; return;}
+  el.innerHTML=`<table class="tr"><tr><th>Race</th><th>Side</th><th>Qty</th><th>Avg</th><th>Now</th><th>P/L</th><th>${fin?"Result":""}</th></tr>`+rows.map(([k,p])=>{
+    const v=posValue(p,sIdx), g=v-p.cost, m=midSide(p.kind,p.key,p.side,sIdx), won=fin?((p.side==="D")===P.data[p.kind][p.key].dem_won):null;
+    return `<tr><td>${rLabel(p.kind,p.key)}</td><td>${p.side==="D"?"Dem":"Rep"} <span style="color:var(--mut)">${nameOf(p.kind,p.key,p.side)}</span></td><td>${p.n}</td><td>${Math.round(p.cost/p.n*100)}¢</td><td>${fin?"":(m==null?"":Math.round(m*100)+"¢")}</td><td class="${sMoneyCls(g)}">${g>=0?"+":""}${money(g)}</td><td>${fin?(won?"Won":"Lost"):`<button data-sell="${k}">Sell</button>`}</td></tr>`;}).join("")+`</table>`;
+  el.querySelectorAll("button[data-sell]").forEach(b=>b.onclick=()=>sSell(b.dataset.sell));
+}
+function sPaintEq(){
+  const el=document.getElementById("seq"), W=700,H=90,pad=8; const pts=sEq.map((v,i)=>[i,v]).filter(x=>x[1]!=null&&x[0]<=sIdx);
+  const vs=pts.map(x=>x[1]).concat([0]), lo=Math.min(...vs), hi=Math.max(...vs), span=(hi-lo)||1, X=i=>pad+(W-2*pad)*i/(TN-1), Y=v=>H-pad-(H-2*pad)*(v-lo)/span;
+  el.innerHTML=`<line x1="${pad}" x2="${W-pad}" y1="${Y(0)}" y2="${Y(0)}" stroke="var(--line)" stroke-dasharray="3 3"/><path d="${pts.map((p,i)=>(i?"L":"M")+X(p[0]).toFixed(1)+" "+Y(p[1]).toFixed(1)).join("")}" fill="none" stroke="var(--acc)" stroke-width="2"/><text x="${pad}" y="12" font-size="11" fill="var(--mut)">Total P/L over time (dashed = break-even)</text>`;
+}
+function sPaint(){ sPaintSummary(); sPaintMap(); sPaintCards(); sPaintPositions(); sPaintEq(); }
+function sMakeCard(it){
+  const c=document.createElement("div"); c.className="rc";
+  const nd=nameOf(it.kind,it.key,"D"), nr=nameOf(it.kind,it.key,"R");
+  c.innerHTML=`<div class="rhead"><span class="rk">${it.label}</span><span class="rp"></span></div>`
+   +`<button class="bd" title="Buy ${nd.replace(/"/g,"")} (Democratic)"><span class="nm">${nd}</span><span class="px">Buy</span></button>`
+   +`<button class="br" title="Buy ${nr.replace(/"/g,"")} (Republican)"><span class="nm">${nr}</span><span class="px">Buy</span></button><div class="rh"></div>`;
+  const card={kind:it.kind,key:it.key,tradable:!!T.series[it.kind][it.key],price:c.querySelector(".rp"),bD:c.querySelector(".bd"),bR:c.querySelector(".br"),hold:c.querySelector(".rh")};
+  card.bD.onclick=()=>sBuy(it.kind,it.key,"D"); card.bR.onclick=()=>sBuy(it.kind,it.key,"R"); sCards.push(card); return c;
+}
+function sBuildState(){
+  const box=document.getElementById("sstate"); sCards=[];
+  if(!sState){box.innerHTML=`<h2>Pick a state</h2><p class="sub">Click a state on the map to see its governor, Senate and House races here.</p>`; return;}
+  const st=P.geo.states.find(s=>s.abbr===sState), has=(k,key)=>!!P.data[k][key];
+  box.innerHTML=`<h2>${st.name}</h2><p class="sub">Each button buys your bet size at the ask. Prices are the Democratic side. Scroll the House table sideways for more races.</p>`;
+  const grid=document.createElement("div"); grid.className="sgrid";
+  const big=document.createElement("div"); big.className="sbig";
+  for(const [kind,title] of [["gov","Governor"],["sen","Senate"]]){
+    const w=document.createElement("div"); w.innerHTML=`<div class="rt">${title}</div>`;
+    if(has(kind,sState)) w.append(sMakeCard({kind,key:sState,label:st.name})); else w.insertAdjacentHTML("beforeend",`<div class="note" style="margin:0">No race in 2026.</div>`);
+    big.append(w);
+  }
+  const hk=P.districts.filter(d=>d.state===sState).map(d=>d.key).sort();
+  const hw=document.createElement("div"); hw.className="hwrap"; hw.innerHTML=`<div class="rt">House (${hk.length})</div>`;
+  const tbl=document.createElement("div"); tbl.className="htable";
+  for(const k of hk) tbl.append(sMakeCard({kind:"house",key:k,label:k}));
+  hw.append(tbl); grid.append(big,hw); box.append(grid); sPaintCards();
+}
+function simView(root){
+  root.innerHTML=`<div class="sim">
+   <div class="sumbar"><div><span>Cash</span><b id="scash"></b></div><div><span>Open P/L</span><b id="sopen"></b></div><div><span>Total P/L</span><b id="stotal"></b></div>
+    <label class="bet">Bet size ($)<input id="sbet" type="number" min="1" step="5" value="${sBet}"></label><div id="sfinal" class="fin"></div></div>
+   <div class="simgrid"><div class="left"><svg id="smap" viewBox="${P.geo.x0} 0 ${P.geo.width} ${P.geo.height}" role="img" aria-label="Pick a state"></svg>
+     <div id="sflash" class="flash" aria-live="polite"></div><h3 class="ph3">Positions</h3><div id="spos"></div><svg id="seq" viewBox="0 0 700 90" class="eq"></svg></div>
+    <div id="sstate" class="sstate"></div></div>
+   <div class="ctlbar"><button id="splay">Play</button><select id="sspeed" aria-label="Speed">${[[800,"0.5x"],[400,"1x"],[200,"2x"],[100,"4x"]].map(([v,l])=>`<option value="${v}" ${v===sSpeed?"selected":""}>${l}</option>`).join("")}</select>
+    <input id="srange" type="range" min="0" max="${TN-1}" value="${sIdx}" aria-label="Time"><span id="stime" class="tl"></span><button id="sreset">Reset</button></div></div>`;
+  const svg=document.getElementById("smap");
+  for(const s of P.geo.states){const p=document.createElementNS(NS,"path"); p.setAttribute("d",s.d); p.setAttribute("class","state hit"); p.dataset.st=s.abbr; p.setAttribute("tabindex",0); p.setAttribute("aria-label",s.name);
+    const pick=()=>{sState=s.abbr; sBuildState(); sPaintMap();}; p.addEventListener("click",pick); p.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();pick();}}); svg.appendChild(p);}
+  const b=document.createElementNS(NS,"path"); b.setAttribute("d",P.geo.borders); b.setAttribute("class","borders"); svg.appendChild(b);
+  document.getElementById("sbet").oninput=e=>{sBet=Math.max(1,+e.target.value||1); sPaintCards();};
+  document.getElementById("sspeed").onchange=e=>{sSpeed=+e.target.value; if(sTimer){clearInterval(sTimer);sTimer=setInterval(()=>sAdvance(sIdx+1),sSpeed);}};
+  document.getElementById("splay").onclick=()=>{ if(sTimer){clearInterval(sTimer);sTimer=null;sPaintSummary();return;} if(sIdx>=TN-1){flash("Market closed: press Reset to start over.");return;} sTimer=setInterval(()=>sAdvance(sIdx+1),sSpeed); sPaintSummary(); };
+  document.getElementById("srange").oninput=e=>{const v=+e.target.value; if(v<=sIdx){e.target.value=sIdx; return;} sAdvance(v);};
+  document.getElementById("sreset").onclick=()=>{sReset(); sPaint();};
+  sBuildState(); sPaint();
+}
+
+function placeholder(title,txt){const d=document.createElement("div");d.className="ph";d.innerHTML=`<b>${title}</b>${txt}`;return d;}
+function render(id){
+  clearInterval(sTimer); sTimer=null; clearInterval(pTimer); pTimer=null;
+  document.getElementById("left")?.remove(); document.querySelector("main").classList.remove("timing");
+  clearInterval(timer); timer=null; stage.classList.remove("tm"); stage.replaceChildren(); tabs.querySelectorAll("button").forEach(b=>b.setAttribute("aria-selected",b.dataset.id===id));
+  curTab=id; if(id!=="time") side.innerHTML=`<h2>Hover or tap a state</h2><p style="color:var(--mut);margin:0;font-size:13px">Details for the race show here.</p>`+resInfo();
+  document.querySelector("main").classList.toggle("wide",id==="results"||id==="profit"); document.querySelector("main").classList.toggle("prof",id==="profit");
+  if(id==="results"){ resultsView(); }
+  else if(id==="time"){ timingView(); }
+  else profitView();
+}
+for(const [id,label] of TABS){const b=document.createElement("button");b.textContent=label;b.dataset.id=id;b.setAttribute("role","tab");b.onclick=()=>render(id);tabs.append(b);}
+render(TABS.some(x=>x[0]===location.hash.slice(1))?location.hash.slice(1):"time");
+</script></body></html>

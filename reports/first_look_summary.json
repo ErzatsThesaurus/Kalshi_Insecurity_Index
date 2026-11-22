@@ -1,0 +1,109 @@
+{
+  "n_markets": 707,
+  "n_snapshots": 72,
+  "kalshi_resolved": 614,
+  "outcome_source": "Kalshi settlement results (finalized markets only)",
+  "markets_with_outcome": 614,
+  "pre_poll_snapshot": "2026-11-03 22:59:27+00:00",
+  "first_snapshot": "2026-11-03 21:19:27+00:00",
+  "pre_poll": {
+    "n": 614,
+    "brier": 0.009910677524429968,
+    "logloss": 0.05130796752563309,
+    "favorite_accuracy": 0.9869706840390879,
+    "brier_if_always_0.5": 0.25
+  },
+  "pre_poll_by_bucket": {
+    "<=0.05": {
+      "n": 263,
+      "brier": 0.0003841140684410646,
+      "mean_price": 0.017505703422053234,
+      "win_freq": 0.0
+    },
+    "0.05-0.2": {
+      "n": 35,
+      "brier": 0.011398792857142856,
+      "mean_price": 0.09827142857142858,
+      "win_freq": 0.0
+    },
+    "0.2-0.8 (contested)": {
+      "n": 23,
+      "brier": 0.22248695652173914,
+      "mean_price": 0.5160869565217392,
+      "win_freq": 0.5217391304347826
+    },
+    "0.8-0.95": {
+      "n": 33,
+      "brier": 0.010320416666666665,
+      "mean_price": 0.9053484848484848,
+      "win_freq": 1.0
+    },
+    ">=0.95": {
+      "n": 260,
+      "brier": 0.0004900096153846162,
+      "mean_price": 0.9800807692307693,
+      "win_freq": 1.0
+    }
+  },
+  "calibration": {
+    "(-0.001, 0.05]": {
+      "n": 263,
+      "mean_price": 0.017505703422053234,
+      "win_freq": 0.0
+    },
+    "(0.05, 0.2]": {
+      "n": 35,
+      "mean_price": 0.09827142857142858,
+      "win_freq": 0.0
+    },
+    "(0.2, 0.4]": {
+      "n": 9,
+      "mean_price": 0.3138888888888889,
+      "win_freq": 0.4444444444444444
+    },
+    "(0.4, 0.6]": {
+      "n": 3,
+      "mean_price": 0.4716666666666667,
+      "win_freq": 0.3333333333333333
+    },
+    "(0.6, 0.8]": {
+      "n": 11,
+      "mean_price": 0.6936363636363636,
+      "win_freq": 0.6363636363636364
+    },
+    "(0.8, 0.95]": {
+      "n": 33,
+      "mean_price": 0.9053484848484848,
+      "win_freq": 1.0
+    },
+    "(0.95, 1.0]": {
+      "n": 260,
+      "mean_price": 0.9800807692307693,
+      "win_freq": 1.0
+    }
+  },
+  "district_favorite": {
+    "districts_scored": 305,
+    "favorite_won": 0.9868852459016394
+  },
+  "district_favorite_contested": {
+    "districts_scored": 11,
+    "favorite_won": 0.6363636363636364
+  },
+  "collapse": {
+    "markets_not_decided_pre_poll": 91,
+    "collapsed_by_end": 88,
+    "median_hours_after_poll_close": 4.542222222222223,
+    "p25_p75": [
+      2.542222222222222,
+      5.208888888888889
+    ],
+    "median_settle_lag_hours": 1.45032253375,
+    "vol_vs_collapse_time_spearman": -0.027406565430439737,
+    "winners_vs_losers_median_collapse_h": {
+      "0": 4.542222222222223,
+      "1": 4.542222222222223
+    }
+  },
+  "wrong_way_pre_poll": 8
+}

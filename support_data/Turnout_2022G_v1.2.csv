@@ -1,0 +1,53 @@
+STATE,STATE_ABV,TOTAL_BALLOTS_COUNTED,SOURCE,VAP,NONCITIZEN_PCT,INELIGIBLE_PRISON,INELIGIBLE_PROBATION,INELIGIBLE_PAROLE,INELIGIBLE_FELONS_TOTAL,ELIGIBLE_OVERSEAS,VEP,VEP_TURNOUT_RATE,VAP_TURNOUT_RATE
+United States,,"112,030,874",,"260,725,069",7.50%,"1,175,823","1,074,600","412,595","2,663,018","4,400,000","242,907,672",46.12%,42.97%
+Alabama,AL,"1,424,087",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"3,956,111",2.54%,"25,403","27,469","7,815","60,687",,"3,794,939",37.53%,36.00%
+Alaska,AK,"267,047",https://www.elections.alaska.gov/election-results/,"556,592",3.56%,"4,778","1,872",865,"7,515",,"529,263",50.46%,47.98%
+Arizona,AZ,"2,592,313",https://azsos.gov/elections,"5,796,801",7.78%,"31,441","47,515","7,022","85,978",,"5,259,832",49.29%,44.72%
+Arkansas,AR,"914,227",https://results.enr.clarityelections.com/AR/115767/web.307039/#/summary,"2,347,291",3.76%,"17,331","28,009","23,829","69,169",,"2,189,865",41.75%,38.95%
+California,CA,"11,146,610",https://electionresults.sos.ca.gov/,"30,478,289",14.58%,"97,608",0,0,"97,608",,"25,936,947",42.98%,36.57%
+Colorado,CO,"2,540,666",https://results.enr.clarityelections.com/CO/115903/web.307039/#/summary,"4,630,343",5.61%,"16,366",0,0,"16,366",,"4,354,215",58.35%,54.87%
+Connecticut,CT,"1,297,811",https://ctemspublic.pcctg.net/#/home,"2,884,795",7.85%,"10,204",0,0,"10,204",,"2,648,135",49.01%,44.99%
+Delaware,DE,"325,632",https://elections.delaware.gov/results/html/index.shtml?electionId=GE2022,"812,117",4.99%,"4,733","7,027",344,"12,104",,"759,489",42.88%,40.10%
+District of Columbia,DC,"205,774",https://electionresults.dcboe.org/election_results/2022-General-Election,"547,645",8.24%,0,0,0,0,,"502,519",40.95%,37.57%
+Florida,FL,"7,796,916",https://floridaelectionwatch.gov/Home,"18,012,539",10.07%,"82,313","119,938","3,970","206,221",,"15,992,455",48.75%,43.29%
+Georgia,GA,"3,964,926",https://results.enr.clarityelections.com/GA/115465/web.307039/#/summary,"8,412,085",6.21%,"48,349","233,623","17,062","299,034",,"7,590,660",52.23%,47.13%
+Hawaii,HI,"423,443",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"1,142,024",7.53%,"3,993",9802,0,"13,795",,"1,042,235",40.63%,37.08%
+Idaho,ID,"595,350",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"1,479,695",3.81%,"8,018","17,180","6,922","32,120",,"1,391,199",42.79%,40.23%
+Illinois,IL,"4,144,125",https://www.elections.il.gov/Main/Publications.aspx,"9,835,042",8.00%,"29,147",0,0,"29,147",,"9,019,092",45.95%,42.14%
+Indiana,IN,"1,880,755",https://enr.indianavoters.in.gov/site/index.html,"5,251,799",3.97%,"25,066",0,0,"25,066",,"5,018,237",37.48%,35.81%
+Iowa,IA,"1,230,417",https://electionresults.iowa.gov/IA/115641/web.307039/#/summary,"2,469,712",3.74%,"8,123","17,089","6,411","31,623",,"2,345,722",52.45%,49.82%
+Kansas,KS,"1,008,998",https://sos.ks.gov/elections/22elec/2022-General-Official-Vote-Totals.pdf,"2,240,338",4.91%,"8,534","9,659","5,058","23,251",,"2,107,086",47.89%,45.04%
+Kentucky,KY,"1,502,550",https://elect.ky.gov/Resources/Pages/Turnout.aspx,"3,497,991",2.50%,"19,443","33,748","13,271","66,462",,"3,344,079",44.93%,42.95%
+Louisiana,LA,"1,410,466",https://voterportal.sos.la.gov/graphical,"3,509,403",2.69%,"27,272","17,414","19,087","63,773",,"3,351,228",42.09%,40.19%
+Maine,ME,"680,909",https://www.maine.gov/sos/cec/elec/results/index.html,"1,141,080",1.77%,0,0,0,0,,"1,120,883",60.75%,59.67%
+Maryland,MD,"2,031,635",https://elections.maryland.gov/press_room/2022_stats/GG22/Official%20by%20Party%20and%20County.pdf,"4,804,542",8.45%,14951,0,0,"14,951",,"4,383,608",46.35%,42.29%
+Massachusetts,MA,"2,511,461",https://www.sec.state.ma.us/divisions/elections/research-and-statistics/voter-turnout-statistics.htm,"5,641,587",8.98%,"5,647",0,0,"5,647",,"5,129,325",48.96%,44.52%
+Michigan,MI,"4,500,400",https://mielections.us/election/results/2022GEN_CENR.html,"7,908,417",3.36%,"32,054",0,0,"32,054",,"7,610,641",59.13%,56.91%
+Minnesota,MN,"2,526,646",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"4,415,525",4.02%,"8,616","55,900","6,979","71,495",,"4,166,526",60.64%,57.22%
+Mississippi,MS,"709,100",https://www.sos.ms.gov/elections-voting/2022-general-election-results,"2,255,523",1.60%,"19,620","19,747","10,973","50,340",,"2,169,095",32.69%,31.44%
+Missouri,MO,"2,304,250",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"4,804,425",2.27%,"23,885","24,349","18,238","66,472",,"4,628,893",49.78%,47.96%
+Montana,MT,"468,326",https://electionresults.mt.gov/,"889,939",1.32%,"4,434",0,0,"4,434",,"873,758",53.60%,52.62%
+Nebraska,NE,"682,716",https://electionresults.nebraska.gov/,"1,489,618",4.71%,"4,835","7,423",935,"13,193",,"1,406,264",48.55%,45.83%
+Nevada,NV,"1,023,617",https://silverstateelection.nv.gov/,"2,491,820",10.49%,"10,241",0,0,"10,241",,"2,220,187",46.10%,41.08%
+New Hampshire,NH,"626,931",https://www.sos.nh.gov/elections/elections/election-results/2022-general-election-results,"1,145,802",2.63%,"1,083",0,0,"1,083",,"1,114,584",56.25%,54.72%
+New Jersey,NJ,"2,645,539",https://www.nj.gov/state/elections/election-information-2022.shtml,"7,255,588",11.26%,"12,537",0,0,"12,537",,"6,426,071",41.17%,36.46%
+New Mexico,NM,"714,754",https://electionresults.sos.state.nm.us/default.aspx,"1,656,613",6.28%,"3,666","6,513","2,496","12,675",,"1,539,903",46.42%,43.15%
+New York,NY,"5,962,278",https://www.elections.ny.gov/,"15,633,935",10.25%,"30,192",0,0,"30,192",,"14,001,265",42.58%,38.14%
+North Carolina,NC,"3,790,202",https://er.ncsbe.gov/,"8,411,001",5.45%,"29,607",0,0,"29,607",,"7,922,995",47.84%,45.06%
+North Dakota,ND,"242,566",https://results.sos.nd.gov/Default.aspx?map=Cty&mode=0,"596,109",3.16%,"1,390",0,0,"1,390",,"575,882",42.12%,40.69%
+Ohio,OH,"4,201,368",https://www.ohiosos.gov/elections/election-results-and-data/2022-official-election-results/,"9,180,896",2.56%,"44,788",0,0,"44,788",,"8,901,077",47.20%,45.76%
+Oklahoma,OK,"1,153,284",https://results.okelections.us/OKER/?elecDate=20221108,"3,064,908",4.39%,"22,941","14,495","1,818","39,254",,"2,891,104",39.89%,37.63%
+Oregon,OR,"1,997,689",https://sos.oregon.gov/elections/Pages/electionhistory.aspx,"3,396,232",6.05%,"12,167",0,0,"12,167",,"3,178,593",62.85%,58.82%
+Pennsylvania,PA,"5,410,022",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"10,323,843",3.67%,"37,910",0,0,"37,910",,"9,907,048",54.61%,52.40%
+Rhode Island,RI,"361,449",https://elections.ri.gov/sites/g/files/xkgbur756/files/2023-06/STATEWIDE%20SUMMARY.pdf,"889,425",7.60%,"2,075",0,0,"2,075",,"819,753",44.09%,40.64%
+South Carolina,SC,"1,718,626",https://www.enr-scvotes.org/SC/115412/Web02-state.307150/#/?undefined,"4,175,307",3.04%,"16,248","16,985","4,019","37,252",,"4,011,126",42.85%,41.16%
+South Dakota,SD,"354,670",https://electionresults.sd.gov/default.aspx,"691,460",1.85%,"2,933","3,744","3,611","10,288",,"668,380",53.06%,51.29%
+Tennessee,TN,"1,756,397",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"5,508,108",3.53%,"16,590","38,357","12,816","67,763",,"5,245,909",33.48%,31.89%
+Texas,TX,"8,151,590",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"22,656,456",11.71%,"139,380","236,717","104,277","480,374",,"19,523,011",41.75%,35.98%
+Utah,UT,"1,084,634",https://vote.utah.gov/wp-content/uploads/sites/42/2022/12/Signed-2022-General-Election-State-Canvass-Certification.pdf,"2,454,289",6.42%,"5,991",0,0,"5,991",,"2,290,732",47.35%,44.19%
+Vermont,VT,"291,955",https://sos.vermont.gov/elections/election-info-resources/elections-results-data/,"531,550",1.60%,0,0,0,0,,"523,045",55.82%,54.93%
+Virginia,VA,"3,021,956",https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Statistics/Index.html,"6,805,250",5.96%,"26,498","39,416","1,917","67,831",,"6,331,826",47.73%,44.41%
+Washington,WA,"3,067,686",https://results.vote.wa.gov/results/20221108/,"6,133,923",8.99%,"13,762",0,0,"13,762",,"5,568,721",55.09%,50.01%
+West Virginia,WV,"494,753",https://results.enr.clarityelections.com/WV/115844/web.307039/#/summary,"1,418,697",0.90%,"5,436","3,965","3,207","12,608",,"1,393,321",35.51%,34.87%
+Wisconsin,WI,"2,673,154",https://www.eac.gov/sites/default/files/2023-06/2022_EAVS_Report_508c.pdf,"4,640,711",3.00%,"20,839","25,838","22,965","69,642",,"4,431,848",60.32%,57.60%
+Wyoming,WY,"198,198",https://sos.wyo.gov/Elections/Docs/2022/2022GeneralResults.aspx,"451,876",1.98%,"2,154","3,049",868,"6,071",,"436,858",45.37%,43.86%
