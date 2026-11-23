@@ -9,8 +9,8 @@ and analysis is based on comes from Kalshi's rest API during the election night
 and continuing through the following day. Snapshots were taken every 2o minutes
 of each event market tied to the election of congress as well as the gubernatorial
 elections. This data base is somewhat large and not included in the repo.
-##The HTML dashboard is structured as follows:
-#Timing:
+## The HTML dashboard is structured as follows:
+# Timing:
 The time series map shows the confidence of each race level Kalshi market. The
 higher confidence in the outcome the market has the higher the price for the
 winner's buy price, topping out in the 95¢+ band. Analysis of the time series
@@ -18,15 +18,15 @@ can be viewed in the page as well. Race level analysis will appear on mouse
 hover-over and a best buy analysis also displayed. The best buy is calculated
 with perfect knowledge of outcome and the profit show is based on ~$5 buy of 
 the winner.
-#Profit
+# Profit
 Simulations are run with a given budget and max bet size. The fist tab runs a
 simulator where the user can make picks in any congressional and/or gubernatorial
 race and see their P/L evolve over the night.
 The strategies tab shows multiple predefined strategies including party line
 bulls, ideal trader, and hedged portfolio.
-#Results
+# Results
 This tab contains brief overall analysis of election night and citations.
-#This build was finalized on Sunday 11/22/26 and some races with Kalshi data have not been finalized.
+# This build was finalized on Sunday 11/22/26 and some races with Kalshi data have not been finalized.
 ## Layout
 
 | Path | What |
