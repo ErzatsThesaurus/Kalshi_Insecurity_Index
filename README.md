@@ -3,9 +3,30 @@
 ## View the dashboard: View analysis, strategies, and place bets.
 https://erzatsthesaurus.github.io/Kalshi_Insecurity_Index/
 
-Scrapes Kalshi's public API for 2026 midterms markets, keeps 20-minute snapshots through election night, and
-scores how well the prices predicted winners and how fast they collapsed once results came in.
-
+This project is a working simulator of and analysis of Kalshi's prediction markets
+during the 2026 midterm elections in the United States. The data the simulations
+and analysis is based on comes from Kalshi's rest API during the election night
+and continuing through the following day. Snapshots were taken every 2o minutes
+of each event market tied to the election of congress as well as the gubernatorial
+elections. This data base is somewhat large and not included in the repo.
+##The HTML dashboard is structured as follows:
+#Timing:
+The time series map shows the confidence of each race level Kalshi market. The
+higher confidence in the outcome the market has the higher the price for the
+winner's buy price, topping out in the 95¢+ band. Analysis of the time series
+can be viewed in the page as well. Race level analysis will appear on mouse
+hover-over and a best buy analysis also displayed. The best buy is calculated
+with perfect knowledge of outcome and the profit show is based on ~$5 buy of 
+the winner.
+#Profit
+Simulations are run with a given budget and max bet size. The fist tab runs a
+simulator where the user can make picks in any congressional and/or gubernatorial
+race and see their P/L evolve over the night.
+The strategies tab shows multiple predefined strategies including party line
+bulls, ideal trader, and hedged portfolio.
+#Results
+This tab contains brief overall analysis of election night and citations.
+#This build was finalized on Sunday 11/22/26 and some races with Kalshi data have not been finalized.
 ## Layout
 
 | Path | What |
@@ -22,25 +43,11 @@ scores how well the prices predicted winners and how fast they collapsed once re
 | `midterms/races.py` | Shared helpers: state names, district keys, winners loader, Kalshi ticker parsing. |
 | `scripts/score_start_of_night.py` | Scores start-of-night prices against the winners; writes `reports/start_of_night_*`. |
 | `scripts/timing_and_profit.py` | Collapse times, price series and per-race timing; writes `reports/timing_races.csv` and `reports/price_series.csv`. |
-| `dashboard/` | Interactive dashboard: `index.html` (self-contained, open it in a browser), built by `build_dashboard.py` from `template.html`. `lazyGovWorkers/` holds the district map builders and outputs. |
+| `dashboard/` | Interactive dashboard: `index.html` (self-contained, open it in a browser), built by `build_dashboard.py` from `template.html`. |
 | `support_data/` | Turnout reference CSVs (2022 actual, 2026 estimate). |
 | `reports/` | Outputs of the analysis scripts. |
 
 The raw snapshot folders (about 65 MB each, 72 of them) are **not** in git (see `.gitignore`). `data/derived/` is enough to re-run the analysis.
-
-## Reproduce
-
-```
-pip install -r requirements.txt
-python scripts/build_dataset.py     # only with the raw snapshot folders present
-python scripts/first_look.py
-python results_fetch.py              # winners from Wikipedia
-python scripts/score_start_of_night.py
-python scripts/timing_and_profit.py
-python dashboard/build_dashboard.py   # writes dashboard/index.html
-```
-
-The district map files are already committed. Rebuilding them (`dashboard/lazyGovWorkers/make_districts.py`, then `project_districts.js` and `dashboard/make_states.js` with Node and `d3-geo`) needs the Census TIGER/Line 2026 legislative geodatabase and the `cb_2025_us_cd119_500k` shapefile, which are not in the repo.
 
 ## Data notes
 
